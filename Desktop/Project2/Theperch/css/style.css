@@ -1,0 +1,935 @@
+body,
+h1,
+html {
+    color: #4b4b4b
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html {
+    margin: 0;
+    padding: 0
+}
+.logo,
+nav ul {
+    line-height: 8em
+}
+.aboutSlider a,
+.dropbtn,
+.dropdown-content a,
+.footerLinks ul li a,
+.moreAwards a,
+nav li a {
+    text-decoration: none
+}
+* {
+    box-sizing: border-box
+}
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 16px
+}
+body {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif
+}
+h1 {
+    font-size: 3em;
+    font-weight: 700
+}
+p {
+    font-size: 1.6em
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+.dropbtn,
+nav li a,
+nav li.dropdown,
+nav ul li {
+    display: inline-block
+}
+header {
+    width: 100%;
+    height: 8em;
+    background: #000
+}
+.headerWrapper {
+    max-width: 120em;
+    margin: 0 auto
+}
+.logo {
+    float: left
+}
+.heading,
+nav {
+    float: right
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+nav ul li {
+    font-size: 1.8em;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased
+}
+.dropbtn,
+nav li a {
+    color: #fff;
+    text-align: center;
+    padding-right: 3em
+}
+.dropdown:hover .dropbtn,
+nav li a:hover {
+    background-color: #558b2f
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f4f4ef;
+    min-width: 13em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    z-index: 6
+}
+.bookNow,
+.dropdown:hover .dropdown-content {
+    display: block
+}
+.dropdown-content a {
+    color: #b4b4b4;
+    padding: 1em;
+    display: block;
+    text-align: left;
+    line-height: 1.4!important;
+    border-bottom: solid 1px #b4b4b4
+}
+.aboutSlider,
+.btn {
+    text-align: center
+}
+.mainHeading,
+.secondryHeading {
+    line-height: 1.5;
+    font-weight: 400
+}
+.dropdown-content a:hover {
+    background-color: #ce4a30;
+    color: #fff
+}
+
+.logo h1 {
+    color: #fff
+}
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff
+}
+.slider {
+    width: 100%;
+    height: 50em;
+    position: relative
+}
+.aboutSlider,
+.sliderWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+.sliderWrapper {
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, .46)
+}
+.slider1,
+.slider1 img {
+    width: 100%;
+    height: 100%
+}
+.aboutSlider {
+    margin-top: 17em;
+    z-index: 3
+}
+#btn1,
+#btn2 {
+    position: absolute;
+    top: 40%
+}
+#btn2 {
+    left: 2%
+}
+#btn1 {
+    right: 2%
+}
+.mainHeading {
+    color: #fff;
+    font-size: 3.6em
+}
+.arow,
+.bookNow {
+    font-size: 1.6em
+}
+
+.secondryHeading {
+    color: #fff;
+    font-size: 1.6em;
+    margin-top: 1em
+}
+
+.arow {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    opacity: 0;
+    transition: left .4s, opacity .4s
+}
+.card,
+.explorer {
+    transition: box-shadow .4s
+}
+.bookNow:hover .arow {
+    left: 80%;
+    opacity: 1
+}
+.wrapper1 {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 4em
+}
+.cardContaier {
+    max-width: 120em;
+    margin: -3em auto 5em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around
+}
+.cardGroup,
+.facility {
+    display: flex;
+    flex-wrap: nowrap
+}
+.explorer {
+    min-width: 26em;
+    min-height: 15em;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px #888;
+    position: relative;
+    z-index: 5
+}
+.explorer:hover {
+    box-shadow: none
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    height: 8em;
+    width: 8em;
+    line-height: 8em;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -1em;
+    left: -1em
+}
+.icon1 i,
+.icon2 i,
+.icon3 i,
+.icon4 i {
+    font-size: 3em;
+    margin: 0!important;
+    padding: 0!important
+}
+.icon1 {
+    background: #02b3e4
+}
+.icon2 {
+    background: #15c26b
+}
+.icon3 {
+    background: #558b2f
+}
+.icon4 {
+    background: #ce4a30
+}
+.heading {
+    margin-top: 2em;
+    margin-right: 1em
+}
+.ourRoom,
+.welcome {
+    max-width: 120em;
+    margin: 0 auto;
+    text-align: center
+}
+.heading h2 {
+    font-size: 2em
+}
+.explor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5em;
+    background: #fafbfc;
+    text-align: center
+}
+.explor h4 {
+    font-size: 1.5em;
+    color: #558b2f;
+    padding: 1em
+}
+.wrapper2,
+.wrapper3 {
+    padding-bottom: 4em;
+    width: 100%
+}
+.wrapper2 {
+    background: #f4f4ef
+}
+.card,
+.wrapper3 {
+    background: #fff
+}
+.cardGroup {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 4em
+}
+.card {
+    max-width: 350px;
+    margin: 5px;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888
+}
+.card:hover {
+    box-shadow: none
+}
+
+.cardBody,
+.cardFooter button {
+    padding: 1em;
+    font-size: 1.5em;
+    width: 100%
+}
+.cardHeader h3 {
+    color: #fff;
+    text-align: left;
+    margin-left: 1em
+}
+.wrapper4,
+.wrapper5 h1 {
+    text-align: center
+}
+.cardImg {
+    width: 100%;
+    position: relative
+}
+.cardWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background 0.4s;
+}
+.cardWrapper:hover{
+    background: rgba(0, 0, 0, .46);
+}
+.cardImg img {
+    width: 100%
+}
+.cardBody {
+    background: #f4f4ef
+}
+.cardFooter {
+    width: 100%
+}
+
+.btnAnimation,
+.hide,
+.show {
+    position: absolute;
+    top: 20%
+}
+.btnAnimation {
+    left: 0;
+    opacity: 0;
+    transition: left .4s, opacity .4s
+}
+.cardFooter button:hover .btnAnimation {
+    left: 80%;
+    opacity: 1
+}
+.show {
+    left: 40%;
+    opacity: 1;
+    transition: opacity .4s
+}
+.hide {
+    left: 0;
+    opacity: 0;
+    transition: left .4s, opacity .4s
+}
+.cardFooter button:hover .hide {
+    opacity: 1;
+    left: 40%
+}
+.cardFooter button:hover .show,
+.view {
+    opacity: 0
+}
+.wrapper4 {
+    background: #f4f4ef;
+    width: 100%;
+    padding-bottom: 4em
+}
+.facility {
+    max-width: 120em;
+    margin: 4em auto 0;
+    justify-content: space-around
+}
+.awards,
+.industryLeader {
+    flex-wrap: nowrap;
+    display: flex
+}
+.facilitysCard {
+    position: relative;
+    min-height: 30em
+}
+.facilitysCardImgWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .46)
+}
+.facilitysCard img {
+    width: 100%;
+    height: 100%
+}
+.cardInfo1,
+.cardInfo2 {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(2, 179, 228, .8)
+}
+.cardInfo2 {
+    background: rgba(206, 74, 48, .8)
+}
+.cardInfo1 h2,
+.cardInfo2 h2 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 2em
+}
+.cardInfo1 h4,
+.cardInfo2 h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 400
+}
+.cardInfo1 p,
+.cardInfo2 p {
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 1em;
+    margin-bottom: 2em
+}
+.cardInfo1 a,
+.cardInfo2 a {
+    text-decoration: none;
+    padding: .5em 3em;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1.6em;
+    position: relative
+}
+.view {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    transition: opacity .4s, left .4s
+}
+.cardInfo1 a:hover .view,
+.cardInfo2 a:hover .view {
+    opacity: 1;
+    left: 80%
+}
+.wrapper5 {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 4em
+}
+.industryLeader {
+    max-width: 120em;
+    margin: 2em auto 0;
+    flex-direction: row
+}
+.customerFirst h2,
+.designedForGuest h2 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2em;
+    font-weight: 400
+}
+.customerFirst p,
+.designedForGuest p {
+    text-align: justify
+}
+.facilityContainer h4,
+.fb,
+.footerFoot,
+.gm,
+.ln,
+.moreAwards,
+.tw,
+.wrapper6 h1 {
+    text-align: center
+}
+.customerFirst ul li {
+    font-size: 1.6em
+}
+.designedForGuest {
+    border-left: solid 1em #02b3e4;
+    padding: 2em 2em 0
+}
+.videoHolder {
+    max-width: 45em;
+    max-height: 35em
+}
+.wrapper6 {
+    width: 100%;
+    background: #f4f4ef;
+    padding-bottom: 4em
+}
+.awards {
+    max-width: 120em;
+    margin: 0 auto;
+    padding-top: 4em;
+    flex-direction: row
+}
+.award,
+.moreAwards {
+    max-height: 20em;
+    margin: 5px
+}
+.award {
+    max-width: 22em
+}
+.award img {
+    width: 100%;
+    height: 100%
+}
+.moreAwards p {
+    color: #fff;
+    padding: 0 1em
+}
+
+footer {
+    width: 100%;
+    background: url(../img/family.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff
+}
+
+.footerWrapper {
+    max-width: 120em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row
+}
+.footerLogo {
+    width: 40%
+}
+.footerLogo h1 {
+    color: #fff;
+    padding: 1em
+}
+.footerLogo h2 {
+    font-size: 3em;
+    padding: 0 1em;
+    font-weight: 400
+}
+.footerLinks {
+    width: 60%
+}
+.footerLinks h2 {
+    color: #fff;
+    font-size: 2em;
+    padding: 1em;
+    font-weight: 400
+}
+.footerLinks ul {
+    display: inline-block
+}
+.footerLinks ul li {
+    list-style: none;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-bottom: 1em
+}
+.footerLinks ul li a {
+    color: #fff
+}
+
+.footerFoot p {
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 400
+}
+.socialIcons {
+    width: 80%;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+
+.facilityContainer {
+    width: 100%
+}
+.facilityContainer h1 {
+    text-align: center;
+    padding-top: 2em
+}
+.facilityContainer h4 {
+    font-size: 1.6em;
+    margin: .5em auto 2em;
+    font-weight: 400
+}
+.facilityWrapper {
+    max-width: 120em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around
+}
+.amenities ul,
+.description ul,
+.mainContainer,
+.roomCard,
+.theSpace ul {
+    display: inline-block
+}
+.facilityCard {
+    max-width: 32em;
+    margin: 5px;
+    padding: 5px;
+    background: #fff
+}
+.facilityRoomHead {
+    width: 100%;
+    height: 15em
+}
+.facilityRoomHead img {
+    width: 100%;
+    height: 100%
+}
+.facilityRoomBody {
+    width: 100%;
+    background: #f4f4ef;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid #d3d3d3
+}
+.facilityRoomBody h2 {
+    font-size: 2em
+}
+.facilityRoomBody ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none
+}
+.facilityRoomBody ul li {
+    display: inline-block;
+    padding: 1em .5em;
+    font-size: 1.6em
+}
+.facilityRoomBody p {
+    border-bottom: solid 1px #d3d3d3;
+    padding: .5em 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2em
+}
+.facilityRoomBody p span {
+    text-align: right
+}
+
+.angleRight,
+.showLater {
+    position: absolute;
+    top: 20%;
+    left: 0
+}
+.showNow {
+    opacity: 1;
+    transition: opacity .4s
+}
+.showLater {
+    opacity: 0;
+    transition: opacity .4s, left .4s
+}
+.angleRight {
+    opacity: 0;
+    transition: left .4s, opacity .4s
+}
+.facilityRoomBody button:hover {
+    background: #2f8b43;
+    color: #f3f3f3
+}
+.facilityRoomBody button:hover .showNow {
+    opacity: 0
+}
+.facilityRoomBody button:hover .showLater {
+    opacity: 1;
+    left: 35%
+}
+.facilityRoomBody button:hover .angleRight {
+    opacity: 1;
+    left: 80%
+}
+.roomContainer {
+    width: 100%;
+    margin-top: 0;
+    padding: 0
+}
+.roomContainerWrapper {
+    max-width: 120em;
+    margin: 0 auto
+}
+.mainContainer {
+    width: 68%;
+    margin-right: 2%;
+    float: left
+}
+.mainContainer h1 {
+    padding: 1em 0 0
+}
+.mainContainer h4 {
+    padding: 1em 0
+}
+.aboutListing {
+    width: 100%
+}
+.aboutListing h1 {
+    text-align: center
+}
+.amenities,
+.description,
+.theSpace {
+    padding: 1em;
+    width: 90%;
+    margin: 2em auto;
+    background: rgba(220, 220, 220, 1);
+    text-align: justify
+}
+.butn1,
+.butn2,
+.formHead,
+.otherOption,
+.testimonials {
+    text-align: center
+}
+.description {
+    border-left: solid .5em #558b2f
+}
+.description ul {
+    font-size: 1.6em;
+    list-style: none
+}
+.amenities {
+    border-left: solid .5em #15c26b
+}
+.amenities ul {
+    font-size: 1.6em;
+    list-style: none
+}
+.theSpace {
+    border-left: solid .5em #02b3e4
+}
+.theSpace ul {
+    font-size: 1.6em;
+    list-style: none
+}
+.testimonials {
+    background: url(../img/hotel.jpeg) center no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto 2em;
+    height: 25em;
+    color: #fff
+}
+.optionSliderWrapper,
+.testimonialWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.testimonialWrapper {
+    background: rgba(0, 0, 0, .46)
+}
+.view1 p {
+    margin: 0
+}
+.testimonials h1 {
+    color: #fff;
+    font-weight: 400
+}
+.testimonials h4 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400
+}
+.bold,
+.formHead h2 {
+    font-size: 2em
+}
+.otherOption {
+    max-width: 120em;
+    margin: 0 auto 2em;
+    background: url(../img/hotel.jpeg) center no-repeat;
+    background-size: cover
+}
+.otherOption h1 {
+    color: #fff;
+    font-weight: 400;
+    padding-top: 1em
+}
+.butn1 {
+    left: 10%
+}
+.butn2 {
+    right: 10%
+}
+.roomCardContainer {
+    width: 60%;
+    margin: 0 auto
+}
+.roomSlider {
+    width: 100%
+}
+.roomCard {
+    width: 30%;
+    margin: .5em
+}
+.roomCard img {
+    height: 100%;
+    width: 100%
+}
+.clearfix:after {
+    display: table;
+    content: "";
+    clear: both
+}
+.sideContainer {
+    width: 30%;
+    display: inline-block
+}
+.contactHost,
+.discount,
+.formForRoom {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff
+}
+.sideContainer .socialIcons {
+    width: 90%;
+    margin: 0 auto
+}
+.discount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: start
+}
+.pricing {
+    margin: 3em auto
+}
+.pricing p {
+    margin: 0;
+    padding: 0
+}
+.discountBtn {
+    margin: 3em auto;
+    color: #558b2f
+}
+
+.formHead h2 {
+    color: #fff;
+    font-weight: 400
+}
+.formBody {
+    padding: 2em 1em 1em;
+    border: 1px solid #d3d3d3
+}
+.checkIn,
+.checkOut {
+    max-width: 50%;
+    display: inline-block
+}
+form label {
+    font-size: 1.6em;
+    padding: 1em 0;
+    font-weight: bolder
+}
+form input {
+    margin: 1em 0;
+    width: 100%
+}
+.socialIconsRoom {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em
+}
+.socialIconsRoom h4 {
+    font-size: 1.5em;
+    margin: 1em 0
+}
+
+.contactHost {
+    width: 90%;
+    margin: 3em auto 0;
+    padding: 1em
+}
+.roomCard .card {
+    max-width: 350px;
+    margin: 5px;
+    background: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none!important
+}

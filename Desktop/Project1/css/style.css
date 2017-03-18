@@ -1,0 +1,1977 @@
+/* All ---------------------------------------------------------------- set*/
+* {
+    box-sizing: border-box;
+}
+ html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    font-size: 16px;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+	color:#585858 ! important;
+}
+
+section, nav, article, footer {
+    display: block;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar------------------------------------------------------------------------------*/
+
+
+.navContainer {
+    width: 100%;
+}
+
+.navhead {
+	padding-left:50px;
+    position: fixed ! important;
+    z-index: 10;
+    top: 0;
+	width: 100%;
+	margin: 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,.15);	
+}
+
+
+
+.contact, .forUser {
+    margin-top: 15px;
+}
+
+.forUser {
+    text-align: right;
+}
+
+.contact a, .forUser a {
+    padding: 12px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+.navbarCollapse {
+    background: #fff;
+    text-align: left;
+}
+
+
+.links {
+    margin-top: 3em;
+
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.navbarCollapse a {
+    color: #07253F !important;
+    font-weight: 800;
+    margin: 0;
+    /* font-size: 1.6em; */
+}
+@media only screen and (max-width: 1310px) {
+    .navbarCollapse a {
+        font-weight: 800;
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .navbarCollapse a {
+        font-weight: 800;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    .navbarCollapse a {
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    .formHead ,.formBody{
+        max-width: 250px !important;
+    }
+    .submit button{
+        padding: .5em 2em .5em 2em !important;
+    }
+    .forApartment{
+        padding-left: 1em !important; 
+    }
+
+}
+
+/*-----------------------------------Nav end----------------------------*/
+
+#myCarousel {
+	height:430px !important;
+}
+
+.carousel-inner .item{
+	height:430px  ! important;
+}
+
+.item img{
+height:430px  ! important;
+}
+
+/*-----------------------------------container--------------*/
+.container {
+    width: 100%;
+    margin: 0;
+    height: 430px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.container  img{
+	width:100% ! important;
+}
+.item img {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.cus_nav {
+    z-index: 5000;
+}
+/*---------------------------------------Animation----------------*/
+
+/*--------------------------------Welcome ------------------------------------*/
+
+
+.welcome h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #07253f;
+    padding-bottom: .3em;
+}
+
+.welcome h3 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #07253f;
+    padding-bottom: 1em;
+}
+
+.welcome p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: normal;
+    color: #07253f;;
+}
+/*-----------------------------Room Type-----------------------------------*/
+
+
+.roomContainer {
+    max-width: 87%;
+    margin: 0;
+    padding: 3em 1em 3em 1em;
+    margin: 0 auto;
+}
+
+.roomType {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.roomType1,.roomType2 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.roomType3 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+.deluxe {
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 2em;
+    margin: 0 5px;
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -webkit-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+}
+
+.deluxe:hover {
+    box-shadow: none;
+}
+
+#deluxeImg1 {
+    background: url(../img/banner4_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+
+}
+
+#deluxeImg2 {
+    background: url(../img/banner3_optimized_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+
+}
+
+#deluxeImg3 {
+    background: url(../img/banner4_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+
+}
+
+#deluxeImg4 {
+    background: url(../img/banner3_optimized_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+
+}
+
+#deluxeImg1, #deluxeImg2, #deluxeImg3, #deluxeImg4 {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.deluxe h3 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #07253F;
+    padding-top: 1em;
+}
+
+.deluxe h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #29505f;
+    padding: 1em;
+}
+
+.deluxe span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #585858;
+}
+
+.deluxe button {
+    background: #07253f;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    font-size: .8em;
+    padding: 5px;
+}
+
+
+/*------------------------hotelFacility--------------------------*/
+.conImg{
+	width:100%;
+}
+.conImg img{
+	width:100%;
+}
+
+
+.hotelFacility {
+    max-width: 100%;
+    padding: 6em 3em 6em 3em;
+    margin: 0 auto;
+}
+
+.hotelFacility h1 {
+    font-weight: 800;
+    font-size: 3em;
+    color: #07253f;
+}
+
+.hotelFacility h3 {
+    font-weight: 800;
+    font-size: 2em;
+    color: #07253f;
+    padding-bottom: 3em;
+}
+
+.bigHead, .smallHead {
+    text-align: center;
+}
+
+.imgContainerWrapper {
+    width: 87%;
+    margin: 0 auto;
+    background: url(../img/banner2.jpg)top left no-repeat;
+    background-size: cover;
+}
+
+.imgContainer1,.imgContainer2 {
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+#img1 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img2 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img3 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img4 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.knowMoreWraper {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.46);
+    padding: 3em;
+}
+
+.knowMore {
+    max-width: 90%;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 3em 1em 1em 1em;
+}
+
+.knowMore h3 {
+    font-size: 1.8em;
+    font-weight: 600px;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+.knowMore h4 {
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-bottom: 1em;
+}
+
+.knowMore p {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+/*-------------------------------------------footer-------------------*/
+.footer {
+    width: 100%;
+    padding: 3em 3em 0 3em;
+    margin: 0;
+    background: #d3d3d3;
+}
+
+.footerBody {
+    text-align: center;
+    padding: 0 1em 2em 1em;
+}
+
+.footerBody h4 {
+    color: #07253f;
+    font-weight: 800;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+    /*text-shadow:1px 1px 1px #b2b2b2;*/;
+}
+
+.footerBody p {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #585858;
+     /*text-shadow:1px 1px 1px #b2b2b2;*/;
+}
+
+.footerBtn {
+    text-align: center;
+    padding: 3em;
+}
+
+.footerBtn a {
+    padding: 12px;
+    color: #737373;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #a6a6a6;
+}
+
+.footerBtn a i {
+    font-size: 1.5em;
+}
+
+/*---------------standardRoom--------------------------------------------*/
+/*----------------------------------------------------------------------*/
+.standardRoom a {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.fixWidth{
+	width: 1200px;
+    margin: auto;
+}
+
+.wraperBackgd{
+	width:100%;
+	background: #efefef;
+}
+
+
+.wraperBackgd2{
+	padding:1em;
+	width:100%;
+	background: #e7e9eb;
+}
+.room-section {
+    padding: 0;
+    font-size: 1.5em;
+    border-bottom: solid 1px #d3d3d3;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.room-section p {
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: justify;
+    font-weight: normal;
+    color: #585858;
+}
+
+.forApartment {
+    /* border: solid 1px #d3d3d3; */
+}
+.themAncor{
+    border-right: solid 1px hsla(348, 73%, 46%, 0.87);;
+}
+.themAncor:last-child {
+    border: none;
+}
+.serviceApartmentHead {
+    width: 100%;
+    text-align: left;
+    padding: 2em;
+}
+
+.serviceApartmentHead h1, .serviceApartmentHead p{
+    color: #07253f;
+}
+
+.serviceApartmentHead h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #07253f;
+}
+
+.socialIcons {
+    padding-bottom: 2em;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+.socialIcons .icon {
+    text-align: center;
+}
+
+.socialIcons .icon i {
+    font-size: 40px;
+}
+
+.socialIcons .icon p {
+    text-align: center;
+    color: #07253f;
+}
+
+.aboutListing {
+    border-bottom: solid 1px #d3d3d3;
+    padding: 2em 1em 2em 0;
+}
+
+.aboutListing h4 {
+    font-weight: bold;
+    color: #07253f;
+}
+
+.aboutListing p {
+    padding: 1em 3em 1em 0;
+    color: #07253f;
+}
+
+.contactHost, .amenities, .price, .description, .houseRules, .safetyFeatures, .availability {
+    padding: 1em 0 1em 0;
+    border-bottom: solid 1px #d3d3d3;
+}
+.contactHost p, .amenities p, .price p, .description p, .houseRules p, .safetyFeatures p, .availability p{
+   color: #07253f;
+}
+.forApartment ul li{
+     color: #07253f;
+}
+#reviews {
+    padding: 2em 0 2em 0;
+}
+
+#reviews h4 {
+    font-weight: bold;
+    padding-bottom: 2em;
+    color: #07253f;
+}
+#reviews P{
+   color: #07253f; 
+}
+
+#reviews img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/*-------------------------------form -----------------------*/
+.apartmentBooking{
+    padding: 0;
+    width: 33%;
+
+}
+
+.formHead {
+    max-width: 315px;
+    height: 76px;
+    margin: 0 auto;
+    background: hsla(348, 73%, 46%, 0.87);
+    color: #fff;
+    padding: 1.5em;
+}
+
+.formBody {
+    max-width: 315px;
+    margin: 0 auto;
+    border: solid 1px #d3d3d3;
+    padding: 2em 0 2em 0;
+    background: #fff;
+}
+
+.inputfield {
+    padding: 4px !important;
+}
+
+.inputfield button {
+    background: #fff ! important;
+    padding: 0.5em 1em .5em 1em;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    border: solid 1px #d3d3d3;
+}
+
+.inputfield label {
+    color: #07253F;
+    font-weight: 800;
+}
+
+.inputfield button i {
+    color: hsla(348, 73%, 46%, 0.87);
+}
+
+.content {
+    min-width: 20px;
+    padding: 0.5em;
+}
+
+/*.guests {
+    max-width: 315px;
+    margin: 0 auto;
+}*/
+.guestName, .email{
+    padding: 4px;
+}
+.guestName label, .email label{
+    color: #07253F;
+    font-weight: 800;
+}
+.guestName label span, .email label span{
+    color: red;
+}
+
+.mobile{
+    padding: 0;
+    width: 100%;   
+}
+.mobile label{
+    color: #07253F;
+    font-weight: 800;
+    padding-left: 5px;
+} 
+.mobile label span{
+    color: red;
+}
+
+.add_on_scrol_to_nav {
+    position: fixed;
+    top: 450px;
+    right: 4%;
+    z-index: 20;	
+}
+
+
+.submit {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*------------------------otherOption-------------------------*/
+.otherOption {
+    max-width: 1030px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3em 1em 3em 1em;
+}
+.otherOption h3 {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: #07253f;
+}
+.otherOption img{
+    width: 100%;
+}
+.forOtherOption h4{
+    padding-top: 1em;
+}
+/*---------------------------------facilities------------------------------------*/
+
+.serviceApartment{
+    margin: 0 auto;
+    padding: 6em 1em 3em 1em;
+    width: 100%;
+    color: #07253F;
+    text-align: center;
+}
+.serviceApartment h1{
+    font-size: 3em;
+}
+.serviceApartment p{
+    font-size: 1.5em;
+}
+
+.property, .otherProperty{
+    max-width: 132em;
+    margin: 0 auto;
+    color: #07253f;
+    padding-bottom: 4em;
+}
+.propertyGroup{
+   margin: 0 auto;
+}
+.property1, .property2, .property3, .property4{
+	padding:20px 30px ! important;
+    margin: 0 auto;
+	
+}
+.image img{
+    width: 100%;
+}
+.details h3{
+    font-size: 2em;
+    padding: 1em 0;
+}
+.details ul li{
+    list-style: none;
+    display: inline;
+    font-size: 2em;
+}
+.details ul{
+    padding-left: 0;
+}
+
+.details p{
+    font-size: 1.2em;
+    border-bottom: solid 1px #d3d3d3;
+    padding: .5em 0;
+}
+/*-----------------------------------About Us----------------------------*/
+
+.containerAboutUs{
+    width: 100%;
+    margin: 0;
+    background: #f0f2f5
+}
+
+.wraperForBar{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.mainBar{
+   width: 70%;
+   float: left;
+   padding: 4em 1em 3em 1em;
+   border: solid 1px #d3d3d3;
+   background-color: #fff;
+   margin-top: 4em;
+   margin-bottom: 4em;
+}
+.sideBar{
+  width: 30%;
+  float: right;
+  padding: 0em 1em 3em 1em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.clearfix:after{
+   display: table;
+   content: '';
+   clear: both;
+}
+.ourStory{
+    padding: 3.5em;
+    text-align: justify;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.ourStory p, .management p{
+    font-size: 1.6em;
+     color: #07253f;
+     line-height: 1.4;
+     font-weight: normal;
+}
+.management{
+    padding: 0em 3.5em 3.5em 3.5em;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.management ul li{
+    font-size: 1.6em;
+    color: #07253f;
+}
+
+.managementArea{
+    padding: 0em 3.5em 3.5em 3.5em;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.internationalDesigns{
+    width: 100%;
+}
+.internationalDesigns ul li,
+.infra ul li,
+.employeeDevelopment ul li,
+.multipleProperty ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    font-size: 1.8em;
+    color: #07253F;
+    font-weight: 800;
+}
+.internationalDesigns ul,
+.infra ul,
+.employeeDevelopment ul,
+.multipleProperty ul{
+    padding: 0;
+    position: relative;
+}
+
+.internationalDesigns p,
+.infra p,
+.employeeDevelopment p,
+.multipleProperty p{
+    font-size: 1.6em;
+    text-align: justify;
+}
+
+.ourTeam{
+    padding: 0em 3.5em 3.5em 3.5em;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.executiveLeaders{
+    width: 100%;
+}
+.executiveLeaders h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #07253F;
+    font-weight: 800;
+}
+.itTeam{
+    width: 100%;
+}
+.itTeam h3{
+    font-size: 2em;
+    margin: 1em 0;
+    color: #07253F;
+    font-weight: 800;
+}
+.group1, .group2, .group3,
+.group4, .group5 ,.group6,
+.group7, .group8, .group9{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+.group1{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group2{
+  background :url(../img/madhu.jpg)top left no-repeat;
+  background-size: cover;
+}
+.group3{
+   background :url(../img/madhu.jpg)top left no-repeat;
+   background-size: cover;
+}
+.group4{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group5 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group6{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group7 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group8{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group9{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.ourTeam .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.ourTeam .overlay:hover{
+    background: none;
+}
+
+.discription{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+.discription h5{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.discription p{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+
+}
+.modal-header{
+    background-color: #111;
+}
+.modal-header button{
+    color:  #fff;
+}
+.modal-title{
+    color: #fff;
+    margin-left: 1em;
+    font-size: 2em;
+}
+.modal-dialog{
+    margin-top: 15%;
+}
+
+.groupModal{
+    width: 100%;
+}
+.groupModal p{
+    font-size: 1.6em;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 1em;
+    color: #818181;
+}
+
+.pic0, .pic1, .pic2, .pic3, 
+.pic4, .pic5, .pic6, .pic7,
+.pic8{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    float: left;
+    margin: 1em;
+}
+.pic0{
+   background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover; 
+}
+.pic1{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic2{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic3 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic4 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic5{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic6{
+   background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover; 
+}
+.pic7{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic8{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+
+
+.resumes{
+    max-width: 300px;
+    margin: 2em auto;
+    background-color: #fff;
+}
+
+.resumesHead h3{
+    padding: 1em;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+}
+.resumesBody{
+    width: 100%;
+    border: solid 1px #d3d3d3;
+    padding: 1em;
+}
+.resumesBody form label{
+    font-size: 1.6em;
+    color: #07253F;
+}
+
+
+.resumesBody form input{
+	font-size:16px;
+}
+
+/* book now overley css starts here by abinash */
+
+.overlay_4_frm {
+	background:url('../img/bg4form.jpg') no-repeat center;
+	background-size:cover;
+    height:380px;
+    width: 300px;
+    position: fixed;
+    z-index: 2000;
+    top: 60px;
+	right:220px;
+	/* right:-310px; */
+	bottom:0;
+    transition: 0.2s;
+	overflow-x: hidden ! important;
+	overflow-y: hidden ! important;
+	display:none;
+}
+
+
+.overlay_4_frm a {
+    padding: 0%;
+    text-decoration: none;
+    font-size: 3vw;
+    color: #cccccc;
+    display: block;
+    transition: 0.2s;
+}
+
+.overlay_4_frm a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay_4_frm .closebtn {
+    position: absolute;
+    right: 10px;
+    font-size: 3vw;
+	line-height: 80px;
+	margin: 2%;
+	z-index:10;
+	
+}
+
+.form-content {
+	font-size: 1vw;
+	background:rgba(9, 16, 49, 0.74);
+	margin:auto;
+	height:100% ! important;
+    width: 100%;
+	padding:30px;
+	color:#fff;
+	text-align:left;
+	
+}
+
+ .two_feild {
+	list-style:none;
+	display:table;
+	padding:5px 0px;
+	margin:auto;
+	width: 96%;
+}
+.two_feild li{
+    float: left;
+    display: table-cell;
+    width: 49%;
+    text-align: left;
+	margin-top: 15px;
+	margin:1px;
+}
+
+
+
+.inpt_frm{
+	border: 1px solid #9999;
+    padding: 3px 15px;
+    width: 100%;
+	font-size:15px;
+	border-radius: 27px;
+	color:#000;
+	-webkit-appearance: none;	
+	border-style: none;
+}
+
+
+
+.inpt_div{
+	width: 95%;
+    margin: auto;
+	margin-top:10px;
+}
+
+.selected-flag{
+	background:#fff;
+}
+
+.selected-flag:hover{
+	background:#fff ! important;
+}
+
+.country-name{
+	color:#000 ! important;
+}
+
+.sbmt_btn_4_frm{
+	background: rgb(41,184,194);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 1px;
+    color: #fff ! important;
+	margin-top:20px;
+	border-radius:0px;
+	font-size:15px;
+}
+.sbmt_btn_4_frm:hover{
+box-shadow: inset 0px 0px 20px 2px #12767d;
+}
+
+.allow-dropdown{
+    width: 100% ! important;
+}
+
+.iti-container{
+	z-index: 2000 ! important;
+}
+
+/* css for fix form on to and adjust navbar */
+
+.dcrFntSiz{
+	width: 75%;
+	font-size: 9px;
+}
+
+.dcrWidth{
+	width: 70%;
+}
+/* css fomfix ends here */
+
+
+/* similar property section starts here by abinash */
+.fram_width {
+	width: 1150px ! important;
+    margin: 0 auto ! important;
+	height:auto;
+}
+
+.flot_lft {
+	float: left;
+}
+
+.simlrProp{
+	position:relative;
+	width: 290px;
+    height: 210px;
+}
+
+.cntnDiv{
+    left: -20px;
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    font-size: 15px;
+    color: #6b6565;
+    background: rgba(0, 0, 0, 0.46);
+    padding: 20px 42px;
+    font-weight: bold;
+    text-align: -webkit-left;
+    box-shadow: inset 0px -15px 40px -12px rgba(0,0,0,0.2);
+}
+
+.cntnDiv p{
+	margin: 0 0 1px;
+	color: #fff;
+}
+.simlrSec{
+	border:1px solid #ccc;
+	margin:5px;
+	width:325px;
+	padding:10px 20px;
+	background: #fff;
+}
+
+.simlrSecImg{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.simlrProp img{
+	height: 175px;
+	width:100%;
+}
+
+
+/* new style to change the website structure  */
+
+.framWidth{
+	width:1250px ! important;
+	margin:auto ! important;
+}
+
+.fontNav{
+	font-size: 1.6em;
+}
+
+.hideLink li::before {
+  content: "- " ;
+  color: hsla(348, 73%, 46%, 0.87) ! important; /* or whatever color you prefer */
+}
+
+.hideLink li a {
+	text-decoration:underline;
+	color:inherit ! important;
+}
+
+a:hover {
+	text-decoration:none ! important;
+}
+
+.wrapper{
+	border:1px solid #adaeaf;
+	background:#edeeef;
+}
+
+.padding15px {
+	padding:0px 15px 15px 15px;
+}
+
+/* css for book now page by abinash  */
+
+.color_grey{
+	color:#666 ! important;
+}
+
+.font15{
+	font-size:15px;
+}
+
+.padding10{
+	padding:10px;
+}
+
+.padding10 p{
+	margin:0px 0px 2px;
+} 
+
+.font100{
+	font-size:15px ! important;
+}
+
+.bottomLine{
+	padding-bottom:5px;
+	border-bottom:1px solid grey;
+}
+
+.paraMargin{
+	margin:0px 0px 2px;
+}
+.width70{
+	padding:20px;
+	width:70%;
+	float:left;
+}
+
+.width30{
+	width:30%;
+	float:right;
+}
+
+.width100{
+	width:100%;
+}
+
+.dn,.ac-dn > *,.acac-dn > * > *{display:none;}
+
+.clear{
+	clear:both;
+	content:"";
+	display:table;
+}
+
+.backIcon i {
+	background: url(../img/checkout-sprite-v3.png) no-repeat -1px -89px;
+    color: #fff;
+    font-style: normal;
+    padding: 2px 6px;
+    position: relative;
+    padding: 0 3px 0 8px;
+    font-weight: bold;
+    height: 31px;
+    width: 45px;
+    display: inline-block;	
+}
+
+.flot_lft {
+	float: left;
+}
+
+.flot_rt {
+	float: right;
+}
+
+.color_grey{
+	color:#666 ! important;
+}
+
+.card{
+	background: #e0e0e0;
+    color: #353434;
+}
+
+.tablFxd {
+	margin:auto;
+	width:80%;
+	text-align:left;
+	margin-top:20px;
+    table-layout: fixed;
+}
+
+.tablFxd td{
+	padding-top:20px;
+}
+
+.tablFxd input {
+	padding:3px;
+	border:1px solid #bbb;
+}
+.width70{
+	width:70%;
+}
+
+.headTxt2{
+    color: #515254;
+    padding: 5px;
+	font-size:20px;
+	margin-right:8px;
+	border:1px solid #ccc; 
+	border-bottom:0;
+}
+.active{
+    background: -webkit-linear-gradient(#e0e0e0, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e0e0e0, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e0e0e0, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e0e0e0, #fff); /* Standard syntax */	
+}
+.heading2_h1 {
+	height: 27px;
+	border-bottom: 1px solid #ccc;
+	/* padding-bottom:15px ! important; */
+	text-align:left;
+}
+
+.payTab{
+	position:absolute;
+	padding:30px;
+}
+.tabContainer{
+	height:180px;
+}
+
+.inpt_frm{
+	border:1px solid #ccc;
+}
+
+.navTab{
+	cursor:pointer;
+}
+
+
+.dropdown-menu>li>a {
+	padding: 3px 20px ! important;
+}
+
+
+/*----------------------------------------------Client Page-------------------------*/
+
+.clientContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.clientBanner{
+    width: 100%;
+    height: 250px;
+    background: url(../img/2.jpg)top left no-repeat;
+    background-size: cover;
+}
+.clientBannerWrapper{
+    background: rgba(0, 0, 0, 0.46);
+    height: 250px;
+    position: relative;
+}
+.instantBooking,
+ .customerService,
+  .weAreExperts{
+    text-align: center;
+    padding-top: 1em;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    background: rgba(0, 0, 0, 0.56);
+    -webkit-transition: -webkit-transform 1s; /* Safari */
+    transition: transform 1s;
+}
+.clientBannerWrapper:hover .instantBooking {
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+}
+.clientBannerWrapper:hover .customerService {
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+}
+.clientBannerWrapper:hover .weAreExperts{
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+}
+
+.instantBooking{
+    left: 20%;
+}
+.customerService{
+    left: 45%;
+}
+.weAreExperts{
+    right: 20%;
+}
+.instantBooking p,
+.customerService p,
+.weAreExperts p{
+   font-size: 15px;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+
+.fa{
+    padding-right: 0 !important;
+}
+
+.forBackground{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.clientWrapper{
+    width: 100%;
+    margin: 0 ;
+    background-color: #fff;
+    padding: 4em 0em 2em;
+    border-bottom: solid 5px #888;
+}
+.corporateGuestWrapper{
+    width: 100%;
+    margin: 0 ;
+    background-color: #D5D6D2;
+    padding: 0em 0em 1em;
+    border-bottom: solid 5px #888;
+}
+.ourGuestWrapper{
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+    background: #F4F4EF;
+}
+.businessAccommodation{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.headLine{
+    padding-bottom: 4em;
+}
+.headLine h1{
+    color: #07253F;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+.headLine p{
+    text-align: center;
+    font-size: 1.6em;
+    padding: 0 6em;
+    color: #07253F;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.cardWrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.businessAmenities,
+.inHouseCabs,
+.customizedPlans,
+.corporateDiscounts{
+    max-width: 225px;
+    margin: 10px;
+    display: inline-block;
+    border: solid 1px #d3d3d3;
+    background: #f1f1f1;
+    box-shadow: 5px 5px 5px #888;
+    -webkit-transition: box-shadow .9s;
+    transition: box-shadow  .9s;
+}
+
+.businessAmenities:hover{
+    box-shadow: none; 
+}
+
+.inHouseCabs:hover{
+    box-shadow: none; 
+}
+
+.customizedPlans:hover{
+    box-shadow: none; 
+}
+
+.corporateDiscounts:hover {
+    box-shadow: none; 
+}
+
+.imgforCard{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background: #07253F;
+    text-align: center;
+    line-height: 75px;
+    margin: 1em auto;
+    font-size: 3em;
+    color: #fff;
+}
+.articleForCard h3 {
+    font-size: 2em;
+    color: #07253F;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+.articleForCard p{
+    font-size: 1.3em;
+    color: #07253F;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: italic;
+    padding: 0em 1em 1em 1em
+}
+.corporateGuestWrapper{
+      width: 100%;
+      background: #f8f8f8;
+}
+.corporateGuestHouse{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em 0em 2em;
+}
+.corporateGuestHouse h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #07253F;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.environment{
+    width: 50%;
+    float: left;
+    padding: 0em 1em 0em 6em;
+}
+.accommodation{
+    width: 50%;
+    float: right;
+    padding: 0em 6em 0em 1em;
+}
+.somePoint li{
+    font-size: 1.6em;
+   color: #07253F;
+    list-style-type: circle;
+    text-align: justify;
+}
+.environmentArticle h3, .accommodation h3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: #07253F;
+    margin-bottom: 1.5em;
+}
+.environmentArticle p, .accommodation p{
+    font-size: 1.6em;
+    line-height: 1.5;
+    color: #07253F;
+    font-weight: normal;
+    text-align: justify;
+    padding: 0em 2em;
+}
+.accommodationWrapper{
+    padding: 1em 1em;
+    width: 450px;
+    margin: 0 auto;
+}
+.perchaccommodation{
+    max-width: 200px;
+    float: left;
+    background: #DCDCDC ; 
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #888;
+}
+.arboraccommodation{
+    max-width: 200px;
+    float: right;
+     background: #DCDCDC ;
+    margin-right: 5px;
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #888;
+}
+
+
+.perchaccommodation img, .arboraccommodation img{
+   width: 100%;
+   border-radius: 5px;
+}
+
+.perchaccommodation ul, 
+.arboraccommodation ul{
+    padding: 1em 1em 0em 1em;
+    list-style: none;
+    font-size: 1.2em;
+}
+.perchaccommodation h4, 
+.arboraccommodation h4{
+    color:#07253F;
+    font-size: 1.6em;
+    padding-top: 1em;
+    font-weight: 700; 
+}
+.request h3{
+    font-size: 2em;
+    padding-top: .6em;
+}
+.environment a{
+    text-decoration: none;
+}
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.ourGuest{
+    padding: 4em 2em;
+    max-width: 1200;
+    margin: 0 auto;
+}
+.ourGuest h1{
+    font-size: 3em;
+    text-align: center;
+    color: #07253F;
+    font-weight: 700;
+    margin-bottom: 2em; 
+}
+.videoWrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.video1{
+   max-width: 50%; 
+   float: left;
+}
+.video2{
+    max-width: 50%; 
+   float: right;
+}
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: both;
+}
+/* ---------------------------------Contact Us------------------------------------------ */
+
+
+
+#map{
+    max-width: 955px;
+    margin: 0 auto;
+    border: solid 2px #d3d3d3;
+    margin-bottom: 8em;
+}
+.contactNav{
+    max-width: 585px;
+    margin: 0 auto;
+}
+.contactNav ul{
+    padding: 0;
+    margin: 0;
+}
+.contactNav .guest{
+    padding: 1em 4em; 
+}
+.contactNav .partner{
+    padding: 1em 0.7em;
+}
+.contactNav .job{
+    padding: 1em 4em; 
+}
+
+.guestInquiry, 
+.franchising, 
+.jobOpenings{
+    max-width: 950px;
+    margin: 3em auto 0em;
+    border: solid 1px #d3d3d3;
+    padding: 2em 2em 4em 2em;
+
+}
+.guestInquiry h1, 
+.franchising h1, 
+.jobOpenings h1{
+    font-size: 3em;
+    color: #07253F;
+    text-align: center;
+    padding: 1em 0em; 
+    font-weight: 700;
+}
+
+.guestInquiryHead h3, 
+.franchisingHead h3, 
+.jobOpeningsHead h3{
+    text-align: center;
+    padding: .7em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 2em;
+}
+.formForGuestInq, 
+.formForfranchising, 
+.formForjobOpenings{
+    width: 50%;
+    float: left;
+    padding: 1em;
+    border: solid 1px #d3d3d3;
+    border-radius: 10px;
+    background: #fff;
+}
+.formForGuestInq label, 
+.formForfranchising label, 
+.formForjobOpenings label{
+    font-size: 1.6em;
+    color: #07253F;
+}
+
+.somePoints{
+    width: 50%;
+    float: right;
+    padding: 1em;
+}
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.somePoints h3{
+    text-align: center;
+    color: #07253F;
+    font-weight: 700;
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
+
+.somePoints ul li{
+    font-size: 1.6em;
+    color: #07253F;
+}
+
+
+/*---------------------------------------------------Privacy Policy------------------------*/
+.policiesContainer{
+    width: 100%;
+    margin: 0;
+    padding: 2em 1em;
+}
+.policyWrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.mainPolicies{
+    width: 91%;
+    min-height: 400px;
+    margin: 0 auto;
+    border: solid 1px #d3d3d3;
+}
+.policiesLink{
+    max-width: 1002px;
+    margin: 1em auto;
+    padding-top: 8em;
+}
+.policiesLink ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.privacyPolicy,
+.cancellationPolicy,
+.standardInclusions,
+.faqs,
+.complaintsAndSuggestions{
+    padding: 3em 1em 2em 1em;
+}
+.privacyPolicy h1,
+.cancellationPolicy h1,
+.standardInclusions h1,
+.faqs h1,
+.complaintsAndSuggestions h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #07253F;
+    padding-bottom: 1em;
+}
+.infoCovers h3,
+.youConsent h3,
+.weCollects h3,
+
+
+.reservation h3,
+.occupancy h3,
+.deposit h3,
+.earlyCheckout h3,
+.refundPolicy h3,
+
+
+.standardInclusions h3 {
+     font-size: 1.8em;
+     font-weight: 400;
+     padding-bottom: .5em;
+     color: #07253F;
+}
+.infoCovers p,
+.youConsent p,
+.weCollects p,
+
+
+.reservation p,
+.occupancy p,
+.deposit p,
+.earlyCheckout p,
+.refundPolicy p,
+
+
+.standardInclusions p{
+    font-size: 1.6em;
+    color: #07253F;
+    font-weight: normal;
+    padding: 1em 3em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.definetion, 
+.process, 
+.validity, 
+.claim, 
+.dispute {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+
+.definetion ul li, 
+.process ul li, 
+.validity ul li, 
+.claim ul li, 
+.dispute ul li{
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: 700;
+    list-style: none;
+    display: inline-block;
+
+}
+.alineRight{
+    position: absolute;
+    right: 5px;
+    color: #fff !important;
+}
+
+.list1, 
+.list2,
+.list3,
+.list4,
+.list5{
+    padding: 1em;
+    position: relative;
+}
+.list1, 
+.list2, 
+.list3, 
+.list4, 
+.list5{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.show{
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+
+.list1 ol li, 
+.list2 ol li,
+.list3 ol li,
+.list4 ol li,
+.list5 ol li{
+   font-size: 1.6em;
+   color: #07253F;
+
+}
+.list1 p, 
+.list2 p,
+.list3 p,
+.list4 p,
+.list5 p{
+    font-size: 1.6em;
+    line-height: 1.5; 
+    padding: 1em;
+    color: #07253F;
+    text-align: justify;
+}
+.complaint{
+    width: 100%;
+}
+.complaint h6{
+    font-weight: 1em;
+    color: hsla(348, 73%, 46%, 0.87);
+}
+.complaint p { 
+    font-size: 1.6em;
+    text-align: justify;
+    padding-top: 1em;
+    color: #07253F;
+}
+.complaint a{
+    font-size: 1.6em;
+}

@@ -1,0 +1,207 @@
+header {
+    width: 100%;
+    height: 8em;
+    background: #558b2f;
+}
+
+.logo h1 span {
+    background: #ce4a30;
+    border-radius: 3px;
+    padding: .2em;
+    color: #000
+}
+
+.btn {
+    font-size: 6em;
+    background: 0 0;
+    color: #ce4a30;
+    border: none;
+    z-index: 4
+}
+
+.seprator {
+    width: 7%;
+    margin: 1em auto 0;
+    border: .5px solid #ce4a30;;
+}
+
+.bookNow {
+    margin: 4em auto 0;
+    background: #ce4a30;;
+    color: #fff;
+    padding: 1em 3em;
+    border: none;
+    position: relative;
+    transition: background .4s, color .4s
+}
+.bookNow:hover {
+    background: #2f8b43;
+    color: #f3f3f3
+}
+
+.cardHeader {
+    width: 100%;
+    height: 5em;
+    background: #558b2f;
+}
+.cardHeader h3 span {
+    background: #ce4a30;
+    border-radius: 3px;
+    line-height: 5em;
+    padding: .5em;
+    color: #000
+}
+
+.cardFooter button {
+    border: none;
+    color: #fff;
+    background: #ce4a30;
+    cursor: pointer;
+    position: relative;
+    transition: background 1.4s, color .4s
+}
+.cardFooter button:hover {
+    background: #2f8b43;
+    color: #f3f3f3
+}
+
+.cardInfo1,
+.cardInfo2 {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.cardInfo1{
+      background: rgba(206, 74, 48, 0.8);
+}
+.cardInfo2 {
+   background: rgba(2, 179, 228, .8);
+}
+
+.customerFirst {
+    margin-right: 1em;
+    border-left: solid 1em rgb(85, 139, 47);
+    padding: 2em 2em 0
+}
+.moreAwards {
+    max-width: 30em;
+    background: #000;
+}
+
+.moreAwards h2 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    padding-top: .5em
+}
+.moreAwards a {
+    font-size: 1.6em;
+    background: rgb(206, 74, 48);
+    padding: .5em 1em;
+    color: #fff;
+    border-radius: 3px
+}
+
+.footerOverlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(85, 139, 47, 0.6);
+}
+
+.footerFoot {
+    width: 100%;
+    background: rgb(85, 139, 47);
+    height: 5em;
+    line-height: 5em
+}
+
+.footerLogo h1 span {
+    background: rgb(206, 74, 48);
+    padding: .2em;
+    border-radius: 5px;
+    color: #000
+}
+
+.fb,
+.gm,
+.ln,
+.tw {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    line-height: 3em;
+    color: #fff;
+    background: rgba(206, 74, 48, 0.8);
+    margin: 5px;
+    font-size: 1.6em
+}
+
+.facilityRoomBody button {
+    width: 100%;
+    border: none;
+    background: rgb(206, 74, 48);
+    color: #fff;
+    font-size: 1.6em;
+    padding: .5em;
+    border-radius: 3px;
+    margin-top: 2em;
+    position: relative;
+    cursor: pointer;
+    transition: background .4s
+}
+
+/*---------------------------------------------------------------------*/
+.formHead {
+    background: #558b2f;
+    padding: 1em
+}
+.formBody button {
+    width: 100%;
+    background:  rgb(206, 74, 48);
+    padding: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 3px
+}
+
+
+.fbRoom,
+.gmRoom,
+.lnRoom,
+.twRoom {
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1.6em;
+    background: rgb(206, 74, 48);
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    display: inline-block
+}
+
+.contactHost button {
+    width: 100%;
+    background: rgb(206, 74, 48);
+    padding: 1em;
+    border-radius: 3px;
+    border: none;
+    color: #fff
+}
+
+.butn1,
+.butn2 {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    border: none;
+    background: rgb(206, 74, 48);
+    padding: 0!important;
+    margin: 0!important;
+    border-radius: 100%
+}

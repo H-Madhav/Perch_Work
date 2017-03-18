@@ -1,0 +1,180 @@
+.container4Sngl{
+	cursor:pointer;
+	margin:auto;
+	width:800px;
+	padding:0px;
+	height: auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+    background: rgba(255, 255, 255, 0);
+	user-select: none; -webkit-user-drag: none;
+}
+.slider_wrapper4Sngl{
+	margin:auto;
+	width:800px;
+	overflow: hidden;
+	position:relative;
+	height:380px;
+	top:auto;
+	user-select: none; -webkit-user-drag: none;
+	
+}
+.imagList4Sngl{
+	background:#fff;
+	width:14560px;
+	position: relative;
+	height: 380px;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	/*Chrom default padding for ul is 40px */
+	padding:0px;
+	margin:0px;.
+	user-select: none; -webkit-user-drag: none;
+}
+.imagList4Sngl li{
+	margin: 0px 0px;
+	height: 380px;
+	position: relative;
+	float: left;
+	display: inline;
+	touch-action: none;
+	user-select: none; -webkit-user-drag: none;
+}
+
+.imagList4Sngl li img{
+	width:800px;
+	position: absolute;
+	float: left;
+	height:380px ! important;
+	background-size:cover;
+	touch-action: none;
+	user-select: none; -webkit-user-drag: none;
+}
+
+
+.sliderBtm{
+	position: relative;
+    width: 800px;
+    background: #fff;
+    text-align: left;
+    font-size: 15px;
+    top: 430px;
+	padding:8px 40px;
+	color: #4a4a4c ! important;
+	height:auto;
+	touch-action: none;
+	user-select: none; -webkit-user-drag: none;
+}
+
+.padding10px {
+	padding:7px 0px ! important;
+}
+
+.nvgt4Sngl{
+	position:absolute;
+	top: 220px;
+	height: 50px;
+	width: 30px;
+	opacity: 0.6;
+	user-select: none; -webkit-user-drag: none;
+}
+.nvgt4Sngl:hover{
+	opacity: 0.3;
+	user-select: none; -webkit-user-drag: none;
+}
+.nvgtleft4Sngl{
+	left: 0px;
+	user-select: none; -webkit-user-drag: none;
+	font-size: 30px;
+}
+.nvgtright4Sngl{
+	right: 0px;
+	user-select: none; -webkit-user-drag: none;
+	font-size: 30px;
+}
+
+.fa-chevron-circle-left{
+	opacity: 0.8;
+}
+
+.fa-chevron-circle-right{
+	opacity: 0.8;
+}
+
+
+/* fa icon blink css code here  */
+
+ @keyframes blink {
+     0% { font-size:25; }
+     25% { font-size:15; }
+     50% { opacity:.15; }
+     75% { opacity: 0.75; }
+     100% { opacity: 0; }
+ }
+.blink {
+   -webkit-animation: blink .90s linear infinite;
+   -moz-animation: blink .90s linear infinite;
+   -ms-animation: blink .90s linear infinite;
+   -o-animation: blink .90s linear infinite;
+   animation: blink .90s linear infinite;
+}
+
+/* overley slider css starts here  */
+
+.PropSlidr4Sngl {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 33000;
+    top: 0;
+    left: 0;
+	right:0;
+	bottom:0;
+    background-color:#012035;
+    background-color: rgba(0,0,0, 0.95);
+    transition: 0.2s;
+	overflow-x: hidden ! important;
+	margin:0px;.
+	user-select: none; -webkit-user-drag: none;
+}
+
+
+.PropSlidr4Sngl a {
+    padding: 1%;
+    text-decoration: none;
+    font-size: 6vw;
+    color: #cccccc;
+    display: block;
+    transition: 0.2s;
+}
+
+.PropSlidr4Sngl a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.PropSlidr4Sngl .closebtn4Sngl {
+    position: absolute;
+    right: 10px;
+    font-size: 60px;
+	line-height: 80px;
+	margin: 3%;
+	z-index:10;	
+}
+
+
+.slider-content4Sngl {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+	padding:10px;
+	height:auto;
+	color:#fff ! important;
+	
+}
+
+
+ 

@@ -1,0 +1,401 @@
+
+/*---------------------Index------------------*/
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #6AB187;
+}
+
+.forUser button {
+    padding: 5px;
+    background: #20948B;
+    border: none;
+}
+
+.forUser button:hover {
+    box-shadow: 3px 3px 3px #19766f;
+    color: #ddd;
+}
+
+.navbarCollapse a:hover {
+    color: #20948B;
+}
+
+.dropdown:hover {
+    background: #20948B;
+}
+
+.dropdown:hover a {
+    color: #fff !important;
+}
+
+.dropdown li a {
+    text-align: center;
+    border-bottom: solid 1px #d3d3d3;
+    background: #20948B;
+    color: #fff !important;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li a:hover {
+    color: #fff !important;
+    background: #6AB187;
+}
+.dropdown-menu{
+    padding: 0;
+}
+
+.logoName {
+    text-align: center;
+    margin-top: 1.3em;
+    color: #6AB187;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.logoDefinetion {
+    text-align: center;
+    color: #6AB187;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+    position: relative;
+}
+
+.overlay:hover {
+  background: rgba(0, 0, 0, 0.43);
+}
+
+.bookNow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    text-align: center;
+    background: rgba(32,148,139, 0.88);
+    padding-top: .5em;
+    font-size: 1.5em;
+    padding-top: .5em;
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+.deluxe button {
+    background: #20948B;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    font-size: .8em;
+    padding: 5px;
+}
+
+.hotelFacilityWrp{
+    width:100%;
+   background: #f4f4ef;
+}
+
+
+.knowMore button {
+    background: #20948B;
+    color: #fff;
+    padding: 1.2em;
+    border: none;
+}
+.knowMore button:hover{
+    background-color: #6AB187;
+}
+
+.footerFoot {
+    width: 100%;
+    margin: 0;
+    background: #6AB187;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+/*---------------standardRoom--------------------------------------------*/
+
+.standardRoom button {
+    padding: 8px;
+    background: #20948B;
+    color: #fff;
+    position: absolute;
+    bottom:20px;
+    left: 1em;
+    border: none;
+    border-radius: 2px;
+}
+
+.themAncor a {
+    text-decoration:none;
+    color: #20948B ! important; 
+}
+.themAncor{
+    border-right: solid 1px #20948B;
+}
+
+.formHead {
+    max-width: 315px;
+    height: 76px;
+    margin: 0 auto;
+    background: #6AB187 ;
+    color: #fff;
+    padding: 1.5em;
+}
+.submit button {
+    background: #20948B;
+    width:80%;
+    padding:6px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.submit button:hover{
+    background-color: #6AB187;
+}
+
+/*----------------------About-------------------------------*/
+
+.ourStory h1, .management h1,
+.ourTeam h1{
+    font-size: 3em;
+    border-bottom: solid 1px #20948B;
+    margin-bottom: 1em;
+    color: #fff;
+}
+.ourStory h1 span, .management h1 span,
+.ourTeam h1 span{
+    background-color: #20948B;
+    padding: 0 1em;
+}
+
+.sideBar .sideNav{
+    max-width: 300px;
+    margin: 0em auto 1em;
+    border: solid 1px #d3d3d3;
+    background-color: #20948B;
+}
+.sideNav a{
+    display: block;
+    font-size: 1.6em;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: solid 1px #d3d3d3;
+}
+.sideNav a:hover{
+    background-color: #6AB187;
+}
+
+.resumesHead{
+    width: 100%;
+    background-color: #6AB187;
+}
+
+.resumes .btn{
+    display: block;
+    margin: 0 auto;
+    padding: .5em 8em .5em 8em;
+    background-color: #20948B;
+    color: #fff;
+}
+
+.internationalDesigns span,
+.infra span,
+.employeeDevelopment span,
+.multipleProperty span{
+    color: #20948B;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 5px; 
+    border-radius: 2px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+/*-------------------------ContactUs----------------------------*/
+
+.contactContainer{
+    width: 100%;
+    margin: 0;
+    padding-top: 4em;
+    background-color: #f4f4ef;
+}
+
+.contactNav ul a{
+    font-size: 1.4em;
+    background-color: #20948B;
+    color: #fff;
+    text-decoration: none;
+    border: solid 1px #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: -3px;
+}
+
+.contactNav ul a:hover{
+    background-color: #6AB187;
+    color: #fff;
+}
+.guestInquiryHead, 
+.franchisingHead, 
+.jobOpeningsHead{
+    background-color: #6AB187;
+    color: #fff;
+    border-radius: 3px;
+}
+.formForGuestInq button, 
+.formForfranchising button, 
+.formForjobOpenings button{
+    display: block;
+     margin: 0 auto;
+     border: none;
+     padding: .5em 8em .5em 8em;
+     background-color: #20948B;
+     font-size: 1.6em;
+     border-radius: 15px;
+     color: #fff;
+}
+
+.formForGuestInq button:hover{
+   background-color: #6AB187;
+} 
+.formForfranchising button:hover{
+    background-color: #6AB187;
+} 
+.formForjobOpenings button:hover{
+    background-color: #6AB187;
+}
+
+.activeonClick{
+    background-color: #6AB187 !important; 
+} 
+
+.policiesLink a:hover{
+    background-color: #6AB187; 
+}
+
+/*---------------------------------------facility-----------------------------*/
+
+.btn a button{
+   background: #20948B;
+   border: none;
+   padding: .5em 3em 0.5em 3em;
+   color: #fff;
+   margin-left: 62px;
+}
+.btn a button:hover{
+   background-color: #6AB187;
+}
+
+/*---------------------------------client------------------------------------*/
+
+.instantBooking p i,
+.customerService p i,
+.weAreExperts p i{
+    font-size: 45px;
+    color: #20948B;
+}
+.request{
+    width: 88%;
+    height: 50px;
+    background: #20948B;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin:8.8em auto 0em;
+}
+.request:hover{
+    background-color: #6AB187;
+}
+.perchaccommodation p, 
+.arboraccommodation p{
+    text-align: right;
+    color: #20948B;
+    font-size: 1.6em;
+    padding: 0 .5em;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+/*-----------------------------BookNow--*/
+.headTxt{
+    background: #20948B;
+    color: #fff;
+    padding: 5px;
+}
+
+.requiredFld{
+    color:red;
+}
+.heading_h1 {
+    border-bottom: 1px dotted #20948B;
+    /* padding-bottom:15px ! important; */
+    text-align:left;
+    height: 32px;
+}
+
+.themText{
+    color: #20948B; 
+}
+
+.payBtn{
+    width:100px;
+    background: #20948B;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    font-size:12px;
+}
+.payBtn:hover{
+    background-color: #6AB187;
+}
+
+/*---------------------------------------policy-----------------*/
+
+.policiesLink a{
+   font-size: 1.4em;
+   display: inline-block;
+   width: 200px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   cursor: pointer;
+   border: solid .1px #000;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   text-decoration: none;
+   background-color: #20948B;
+   color: #fff; 
+   margin-right: -3px;
+}
+.definetion ul, 
+.process ul, 
+.validity ul, 
+.claim ul, 
+.dispute ul {
+    width: 100%;
+    padding: 0em 2em;
+    position: relative;
+    background-color: #20948B;
+    border-radius: 5px;
+}

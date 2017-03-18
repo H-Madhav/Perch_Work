@@ -1,0 +1,395 @@
+
+/*---------------------Index------------------*/
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: hsla(348, 73%, 46%, 0.87);
+}
+
+.forUser button {
+    padding: 5px;
+    background: #07253f;
+    border: none;
+}
+
+.forUser button:hover {
+    box-shadow: 3px 3px 3px #a50c2b;
+    color: #ddd;
+}
+
+.navbarCollapse a:hover {
+    color: hsla(348, 73%, 46%, 1);
+}
+
+.dropdown:hover {
+    background: hsla(348, 73%, 46%, 1);
+}
+
+.dropdown:hover a {
+    color: #fff !important;
+}
+
+.dropdown li a {
+    text-align: center;
+    border-bottom: solid 1px #d3d3d3;
+    background: hsla(348, 73%, 46%, 1);
+    color: #fff !important;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li a:hover {
+    color: #fff !important;
+    background: #07253f;
+}
+.dropdown-menu{
+    padding: 0;
+}
+
+.logoName {
+    text-align: center;
+    margin-top: 1.3em;
+    color: hsla(348, 73%, 46%, 0.87);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.logoDefinetion {
+    text-align: center;
+    color: hsla(348, 73%, 46%, 0.87);
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.overlay {
+    background: rgba(233, 79, 8, 0);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+    position: relative;
+}
+
+.overlay:hover {
+    background: rgba(233, 79, 8, .46);
+}
+
+.bookNow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    text-align: center;
+    background: rgba(7, 37, 63, 0.74);
+    padding-top: .5em;
+    font-size: 1.5em;
+    padding-top: .5em;
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+.deluxe button {
+    background: #07253f;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    font-size: .8em;
+    padding: 5px;
+}
+
+.hotelFacilityWrp{
+    width:100%;
+   background: #e7e9eb;
+}
+
+
+.knowMore button {
+    background: #07253f;
+    color: #fff;
+    padding: 1.2em;
+    border: none;
+}
+.knowMore button:hover{
+    background-color: hsla(348, 73%, 46%, 1);
+}
+
+.footerFoot {
+    width: 100%;
+    margin: 0;
+    background: hsla(348, 73%, 46%, 0.87);
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+/*---------------standardRoom--------------------------------------------*/
+
+.standardRoom button {
+    padding: 8px;
+    background: rgba(7, 37, 63, 0.77);
+    color: #fff;
+    position: absolute;
+    bottom:20px;
+    left: 1em;
+    border: none;
+    border-radius: 2px;
+}
+
+.themAncor a {
+    text-decoration:none;
+    color:hsla(348, 73%, 46%, 0.87) ! important; 
+}
+
+.formHead {
+    max-width: 315px;
+    height: 76px;
+    margin: 0 auto;
+    background: hsla(348, 73%, 46%, 0.87);
+    color: #fff;
+    padding: 1.5em;
+}
+.submit button {
+    background: #07253f;
+    width:80%;
+    padding:6px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.submit button:hover{
+    background-color: hsla(348, 73%, 46%, 1);
+}
+
+/*----------------------About-------------------------------*/
+
+.ourStory h1, .management h1,
+.ourTeam h1{
+    font-size: 3em;
+    border-bottom: solid 1px hsla(348, 73%, 46%, 0.87);;
+    margin-bottom: 1em;
+    color: #fff;
+}
+.ourStory h1 span, .management h1 span,
+.ourTeam h1 span{
+    background-color: hsla(348, 73%, 46%, 0.87);
+    padding: 0 1em;
+}
+
+.sideBar .sideNav{
+    max-width: 300px;
+    margin: 0em auto 1em;
+    border: solid 1px #d3d3d3;
+    background-color: #07253F;
+}
+.sideNav a{
+    display: block;
+    font-size: 1.6em;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: solid 1px #d3d3d3;
+}
+.sideNav a:hover{
+    background-color:  hsla(348, 73%, 46%, 0.87);
+}
+
+.resumes .btn{
+    display: block;
+    margin: 0 auto;
+    padding: .5em 8em .5em 8em;
+    background-color: hsla(348, 73%, 46%, 0.87);
+    color: #fff;
+}
+
+.internationalDesigns span,
+.infra span,
+.employeeDevelopment span,
+.multipleProperty span{
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 5px; 
+    border-radius: 2px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+/*-------------------------ContactUs----------------------------*/
+
+.contactContainer{
+    width: 100%;
+    margin: 0;
+    padding-top: 4em;
+    background-color: #d9d9d9;
+}
+
+.contactNav ul a{
+    font-size: 1.4em;
+    background-color: #07253F;
+    color: #fff;
+    text-decoration: none;
+    border: solid 1px #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: -3px;
+}
+
+.contactNav ul a:hover{
+    background-color: hsla(348, 73%, 46%, 0.87);
+    color: #fff;
+}
+.guestInquiryHead, 
+.franchisingHead, 
+.jobOpeningsHead{
+    background-color: hsla(348, 73%, 46%, 0.87);
+    color: #fff;
+    border-radius: 3px;
+}
+
+.formForGuestInq button, 
+.formForfranchising button, 
+.formForjobOpenings button{
+    display: block;
+     margin: 0 auto;
+     border: none;
+     padding: .5em 8em .5em 8em;
+     background-color: #07253F;
+     font-size: 1.6em;
+     border-radius: 15px;
+     color: #fff;
+}
+
+.formForGuestInq button:hover{
+   background-color: hsla(348, 73%, 46%, 0.87);
+} 
+.formForfranchising button:hover{
+    background-color: hsla(348, 73%, 46%, 0.87);
+} 
+.formForjobOpenings button:hover{
+    background-color: hsla(348, 73%, 46%, 0.87);
+}
+
+.activeonClick{
+    background-color: hsla(348, 73%, 46%, 0.87) !important; 
+} 
+
+.policiesLink a:hover{
+    background-color: hsla(348, 73%, 46%, 0.87); 
+}
+
+/*---------------------------------------facility-----------------------------*/
+
+.btn a button{
+   background: #07253f;
+   border: none;
+   padding: .5em 3em 0.5em 3em;
+   color: #fff;
+   margin-left: 62px;
+}
+.btn a button:hover{
+   background-color: hsla(348, 73%, 46%, 1);
+}
+.perchaccommodation p, 
+.arboraccommodation p{
+    text-align: right;
+    color: hsla(348, 73%, 46%, 0.87);
+    font-size: 1.6em;
+    padding: 0 .5em;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+/*---------------------------------client------------------------------------*/
+
+.instantBooking p i,
+.customerService p i,
+.weAreExperts p i{
+    font-size: 45px;
+    color: hsla(348, 73%, 46%, 0.87);
+}
+.request{
+    width: 88%;
+    height: 50px;
+    background: #07253F;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin:8.8em auto 0em;
+}
+.request:hover{
+    background-color: hsla(348, 73%, 46%, 0.87);
+}
+
+/*-----------------------------BookNow--*/
+.headTxt{
+    background: #d13c5a;
+    color: #fff;
+    padding: 5px;
+}
+
+.requiredFld{
+    color:red;
+}
+
+.heading_h1 {
+    border-bottom: 1px dotted #d13c5a;
+    /* padding-bottom:15px ! important; */
+    text-align:left;
+    height: 32px;
+}
+
+.themText{
+    color:hsla(348, 73%, 46%, 0.87);
+}
+
+.payBtn{
+    width:100px;
+    background:#07253f;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    font-size:12px;
+}
+.payBtn:hover{
+    background-color: hsla(348, 73%, 46%, 1);
+}
+
+/*---------------------------------------policy-----------------*/
+
+.policiesLink a{
+   font-size: 1.4em;
+   display: inline-block;
+   width: 200px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   cursor: pointer;
+   border: solid .1px #000;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   text-decoration: none;
+   background-color:#07253F;
+   color: #fff; 
+   margin-right: -3px;
+}
+.definetion ul, 
+.process ul, 
+.validity ul, 
+.claim ul, 
+.dispute ul {
+    width: 100%;
+    padding: 0em 2em;
+    position: relative;
+    background-color: #07253F;
+    border-radius: 5px;
+}

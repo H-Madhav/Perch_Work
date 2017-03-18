@@ -1,0 +1,1373 @@
+/* All ---------------------------------------------------------------- set*/
+* {
+    box-sizing: border-box;
+}
+ html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    font-size: 16px;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+section, nav, article, footer {
+    display: block;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar------------------------------------------------------------------------------*/
+
+
+.navContainer {
+    width: 100%;
+}
+
+.navhead {
+    position: fixed ! important;
+    z-index: 10;
+    top: 0;
+    width: 100% ! important;
+    margin: 0px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #896633;
+}
+
+.contact, .forUser {
+    margin-top: 15px;
+}
+
+.forUser {
+    text-align: right;
+}
+
+.contact a, .forUser a {
+    padding: 12px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.forUser button {
+    padding: 5px;
+    background: #E94F08;
+    border: none;
+}
+
+.forUser button:hover {
+    box-shadow: 3px 3px 3px rgba(10, 49, 82 ,.86);
+    color: #ddd;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+.navbarCollapse {
+    background: #fff;
+    text-align: left;
+    
+}
+
+
+.links {
+    margin-top: 3em;
+
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.navbarCollapse a {
+    color: #6f1200 !important;
+    font-weight: 800;
+    margin: 0;
+    font-size: 1.6em;
+}
+@media only screen and (max-width: 1310px) {
+    .navbarCollapse a {
+        font-weight: 800;
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .navbarCollapse a {
+        font-weight: 800;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    .navbarCollapse a {
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    .formHead ,.formBody{
+        max-width: 250px !important;
+    }
+    .submit button{
+        padding: .5em 2em .5em 2em !important;
+    }
+    .forApartment{
+        padding-left: 1em !important; 
+    }
+
+}
+
+.navbarCollapse a:hover {
+    color: #896633;
+}
+
+.dropdown:hover {
+    background:#896633;
+}
+
+.dropdown:hover a {
+    color: #fff !important;
+}
+
+.dropdown li a {
+    text-align: center;
+    border-bottom: solid 1px #d3d3d3;
+    background: #896633;
+    color: #fff !important;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li a:hover {
+    color: #fff !important;
+    background: #6f1200;
+}
+.dropdown-menu{
+    padding: 0;
+}
+/*-----------------------------------Nav end----------------------------*/
+
+
+.logoName {
+    text-align: center;
+    margin-top: 1.3em;
+    color: #896633;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.logoDefinetion {
+    text-align: center;
+    color: #896633;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+/*-----------------------------------container--------------*/
+.container {
+    width: 100%;
+    margin: 0;
+    height: 430px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.cus_nav {
+    z-index: 5000;
+}
+/*---------------------------------------Animation----------------*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: 0;
+}
+/*--------------------------------Welcome ------------------------------------*/
+.welcome {
+    padding: 3em 10em 3em 10em;
+    background: #e7e9eb;
+    margin: 0;
+    max-width: 100%;
+}
+
+.welcome h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #6f1200;
+    padding-bottom: .3em;
+}
+
+.welcome h3 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #6f1200;
+    padding-bottom: 1em;
+}
+
+.welcome p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: normal;
+    color: #6f1200;
+}
+/*-----------------------------Room Type-----------------------------------*/
+
+
+.roomContainer {
+    max-width: 87%;
+    margin: 0;
+    padding: 3em 1em 3em 1em;
+    margin: 0 auto;
+}
+
+.roomType {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.roomType1,.roomType2 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.roomType3 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+
+#deluxeImg1 {
+    background: url(../img/banner4_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+    border-top: solid 2px red;
+}
+
+#deluxeImg2 {
+    background: url(../img/banner3_optimized_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+    border-top: solid 2px  rgb(233, 79, 8);
+}
+
+#deluxeImg3 {
+    background: url(../img/banner4_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+    border-top: solid 2px  rgb(233, 79, 8);
+}
+
+#deluxeImg4 {
+    background: url(../img/banner3_optimized_1_optimized.jpg)top left no-repeat;
+    background-size: cover;
+    border-top: solid 2px  rgb(233, 79, 8);
+}
+
+#deluxeImg1, #deluxeImg2, #deluxeImg3, #deluxeImg4 {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.deluxe {
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 2em;
+    margin: 0 5px;
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    -webkit-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+}
+
+.deluxe:hover {
+    box-shadow: none;
+}
+
+.overlay {
+    background: rgba(233, 79, 8, 0);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+    position: relative;
+}
+
+.overlay:hover {
+    background: rgba(233, 79, 8, .46);
+}
+
+.bookNow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    text-align: center;
+    background: rgba(233, 79, 8, 0.87);
+    padding-top: .5em;
+    font-size: 1.5em;
+    padding-top: .5em;
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+.deluxe h3 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #6f1200;
+    padding-top: 1em;
+}
+
+.deluxe h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #00ADEF;
+    padding: 1em;
+}
+
+.deluxe span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #6f1200;
+}
+
+.deluxe button {
+    background: #6f1200;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    font-size: .8em;
+    padding: 5px;
+}
+
+
+/*------------------------hotelFacility--------------------------*/
+
+.hotelFacility {
+    max-width: 100%;
+    padding: 6em 3em 6em 3em;
+    background: #e7e9eb;
+    margin: 0 auto;
+}
+
+.hotelFacility h1 {
+    font-weight: 800;
+    font-size: 3em;
+    color: #6f1200;
+}
+
+.hotelFacility h3 {
+    font-weight: 800;
+    font-size: 2em;
+    color: #6f1200;
+    padding-bottom: 3em;
+}
+
+.bigHead, .smallHead {
+    text-align: center;
+}
+
+.imgContainerWrapper {
+    width: 87%;
+    margin: 0 auto;
+    background: url(../img/banner2.jpg)top left no-repeat;
+    background-size: cover;
+}
+
+.imgContainer1,.imgContainer2 {
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+#img1 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img2 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img3 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img4 {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.knowMoreWraper {
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 37, 63, 0.7);
+    padding: 3em;
+}
+
+.knowMore {
+    max-width: 90%;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 3em 1em 1em 1em;
+}
+
+.knowMore h3 {
+    font-size: 1.8em;
+    font-weight: 600px;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+.knowMore h4 {
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-bottom: 1em;
+}
+
+.knowMore p {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.knowMore button {
+    background: rgba(233, 79, 8, 1);
+    color: #fff;
+    padding: 1.2em;
+    border: none;
+}
+.knowMore button:hover{
+    background-color: #896633;
+}
+/*-------------------------------------------footer-------------------*/
+.footer {
+    width: 100%;
+    padding: 3em 3em 0 3em;
+    margin: 0;
+    background: #d3d3d3;
+}
+
+.footerBody {
+    text-align: center;
+    padding: 0 1em 2em 1em;
+}
+
+.footerBody h4 {
+    color: #6f1200;
+    font-weight: 800;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+    /*text-shadow:1px 1px 1px #b2b2b2;*/;
+}
+
+.footerBody p {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #6f1200;
+     /*text-shadow:1px 1px 1px #b2b2b2;*/;
+}
+
+.footerBtn {
+    text-align: center;
+    padding: 3em;
+}
+
+.footerBtn a {
+    padding: 12px;
+    color: #737373;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #a6a6a6;
+}
+
+.footerBtn a i {
+    font-size: 1.5em;
+}
+
+.footerFoot {
+    width: 100%;
+    margin: 0;
+    background: #896633;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+/*---------------standardRoom--------------------------------------------*/
+/*----------------------------------------------------------------------*/
+.standardRoom a {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.standardRoom button {
+    padding: 16px;
+    background: rgba(233, 79, 8, 0.74);
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 1em;
+    border: none;
+    border-radius: 10px;
+}
+/*
+#map {
+    width: 80%;
+    height: 500px;
+    background-color: grey;
+    margin: 0 auto;
+}
+*/
+.room-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    border-right: solid 1px #d3d3d3;
+    border-bottom: solid 1px #d3d3d3;
+    font-family: 'Open Sans', sans-serif;
+    background: #d3d3d3;
+}
+
+.room-section p {
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: justify;
+    font-weight: normal;
+    color: #07253f;
+}
+
+.forApartment {
+    padding-left: 7em;
+    border-right: solid 1px #d3d3d3;
+}
+
+.serviceApartmentHead {
+    width: 100%;
+    text-align: left;
+    padding: 2em;
+}
+
+.serviceApartmentHead h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #6f1200;
+}
+
+.socialIcons {
+    padding-bottom: 2em;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+.socialIcons .icon {
+    text-align: center;
+}
+
+.socialIcons .icon i {
+    font-size: 40px;
+}
+
+.socialIcons .icon p {
+    text-align: center;
+	color: #6f1200 ! important;
+}
+
+.aboutListing {
+    border-bottom: solid 1px #d3d3d3;
+    padding: 2em 1em 2em 0;
+}
+
+.aboutListing h4 {
+    font-weight: bold;
+    color: #6f1200;
+}
+
+.aboutListing p {
+    padding: 1em 3em 1em 0;
+}
+
+.contactHost, .amenities, .price, .description, .houseRules, .safetyFeatures, .availability {
+    padding: 1em 0 1em 0;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+#reviews {
+    padding: 2em 0 2em 0;
+}
+
+#reviews h4 {
+    font-weight: bold;
+    padding-bottom: 2em;
+    color: #6f1200;
+}
+
+#reviews img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: red;
+}
+/*-------------------------------form -----------------------*/
+.apartmentBooking{
+    padding: 0;
+    width: 24%;
+
+}
+
+.formHead {
+    max-width: 315px;
+    height: 76px;
+    margin: 0 auto;
+    background: #896633;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.formBody {
+    max-width: 315px;
+    margin: 0 auto;
+    border: solid 1px #d3d3d3;
+    padding: 2em 0 2em 0;
+    background: #fff;
+}
+
+.inputfield {
+    padding: 4px !important;
+}
+
+.inputfield button {
+    background: #fff ! important;
+    padding: 0.5em 1em .5em 1em;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    border: solid 1px #d3d3d3;
+}
+
+.inputfield label {
+    color: #6f1200;
+    font-weight: 800;
+}
+
+.inputfield button i {
+    color: #896633;
+}
+
+.content {
+    min-width: 20px;
+    padding: 0.5em;
+}
+
+/*.guests {
+    max-width: 315px;
+    margin: 0 auto;
+}*/
+.guestName, .email{
+    padding: 4px;
+}
+.guestName label, .email label{
+    color: #6f1200;
+    font-weight: 800;
+}
+.guestName label span, .email label span{
+    color: red;
+}
+
+.mobile{
+    padding: 0;
+    width: 100%;   
+}
+.mobile label{
+    color: #6f1200;
+    font-weight: 800;
+    padding-left: 5px;
+} 
+.mobile label span{
+    color: red;
+}
+
+.add_on_scrol_to_nav {
+    position: fixed;
+    top: 0;
+    right: 9.4%;
+    z-index: 20;	
+}
+
+
+.submit {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.submit button {
+    background: #E94F08;
+    padding: .5em 8em .5em 8em;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.submit button:hover{
+    background-color: #896633;
+}
+
+/*------------------------otherOption-------------------------*/
+.otherOption {
+    max-width: 1030px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3em 1em 3em 1em;
+}
+.otherOption h3 {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: #6f1200;
+}
+.otherOption img{
+    width: 100%;
+}
+.forOtherOption h4{
+    padding-top: 1em;
+}
+/*---------------------------------facilities------------------------------------*/
+
+.serviceApartment{
+    margin: 0 auto;
+    padding: 6em 1em 3em 1em;
+    width: 100%;
+    color: #6f1200;
+    text-align: center;
+}
+.serviceApartment h1{
+    font-size: 3em;
+}
+.serviceApartment p{
+    font-size: 1.5em;
+}
+
+.property, .otherProperty{
+    max-width: 132em;
+    margin: 0 auto;
+    color: #6f1200;
+    padding-bottom: 4em;
+}
+.propertyGroup{
+   width: 50%;
+   margin: 0 auto;
+}
+.property1, .property2, .property3, .property4{
+    width: 50%;
+    margin: 0 auto;
+    background: rgb(231, 233, 235);
+    max-width: 300px;
+}
+.image img{
+    width: 100%;
+}
+.details h3{
+    font-size: 2em;
+    padding: 1em 0;
+}
+.details ul li{
+    list-style: none;
+    display: inline;
+    font-size: 2em;
+}
+.details ul{
+    padding-left: 0;
+}
+
+.details p{
+    font-size: 1.2em;
+    border-bottom: solid 1px #d3d3d3;
+    padding: .5em 0;
+}
+.btn a button{
+   background: #E94F08;
+   border: none;
+   padding: .5em 3em 0.5em 3em;
+   color: #fff;
+   margin-left: 1em;
+}
+.btn a button:hover{
+   background-color: #896633;
+}
+
+/*-----------------------------------About Us----------------------------*/
+
+.containerAboutUs{
+    width: 100%;
+    margin: 0;
+    background: #f0f2f5
+}
+
+.wraperForBar{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.mainBar{
+   width: 70%;
+   float: left;
+   padding: 4em 1em 3em 1em;
+   border: solid 1px #d3d3d3;
+   background-color: #fff;
+   margin-top: 4em;
+   margin-bottom: 4em;
+}
+.sideBar{
+  width: 30%;
+  float: right;
+  padding: 0em 1em 3em 1em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.clearfix:after{
+   display: table;
+   content: '';
+   clear: both;
+}
+.ourStory{
+    padding: 3.5em;
+    text-align: justify;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.ourStory h1, .management h1,
+.ourTeam h1{
+    font-size: 3em;
+    border-bottom: solid 1px #896633;
+    margin-bottom: 1em;
+    color: #fff;
+}
+.ourStory h1 span, .management h1 span,
+.ourTeam h1 span{
+    background-color: #896633;
+    padding: 0 1em;
+}
+.ourStory p, .management p{
+    font-size: 1.6em;
+     color: #6f1200;
+     line-height: 1.4;
+     font-weight: normal;
+}
+.management{
+    padding: 0em 3.5em 3.5em 3.5em;
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.managementArea{
+    padding: 0em 3.5em 3.5em 3.5em;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.internationalDesigns{
+    width: 100%;
+}
+.internationalDesigns ul li,
+.infra ul li,
+.employeeDevelopment ul li,
+.multipleProperty ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    font-size: 1.8em;
+    color: #6f1200;
+    font-weight: 800;
+}
+.internationalDesigns ul,
+.infra ul,
+.employeeDevelopment ul,
+.multipleProperty ul{
+    padding: 0;
+    position: relative;
+}
+
+.internationalDesigns p,
+.infra p,
+.employeeDevelopment p,
+.multipleProperty p{
+    font-size: 1.6em;
+    text-align: justify;
+}
+
+.internationalDesigns span,
+.infra span,
+.employeeDevelopment span,
+.multipleProperty span{
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 5px; 
+    border-radius: 2px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+.ourTeam{
+    padding: 0em 3.5em 3.5em 3.5em;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.executiveLeaders{
+    width: 100%;
+}
+.executiveLeaders h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #896633;
+    font-weight: 800;
+}
+.itTeam{
+    width: 100%;
+}
+.itTeam h3{
+    font-size: 2em;
+    margin: 1em 0;
+    color: #896633;
+    font-weight: 800;
+}
+.group1, .group2, .group3,
+.group4, .group5 ,.group6,
+.group7, .group8, .group9{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+.group1{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group2{
+  background :url(../img/madhu.jpg)top left no-repeat;
+  background-size: cover;
+}
+.group3{
+   background :url(../img/madhu.jpg)top left no-repeat;
+   background-size: cover;
+}
+.group4{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group5 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group6{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group7 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group8{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.group9{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.overlay:hover{
+    background: none;
+}
+
+.discription{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+.discription h5{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.discription p{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+
+}
+.modal-header{
+    background-color: #111;
+}
+.modal-header button{
+    color:  #fff;
+}
+.modal-title{
+    color: #fff;
+    margin-left: 1em;
+    font-size: 2em;
+}
+.modal-dialog{
+    margin: 25% auto;
+}
+
+.groupModal{
+    width: 100%;
+}
+.groupModal p{
+    font-size: 1.6em;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 1em;
+    color: #818181;
+}
+
+.pic0, .pic1, .pic2, .pic3, 
+.pic4, .pic5, .pic6, .pic7,
+.pic8{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    float: left;
+    margin: 1em;
+}
+.pic0{
+   background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover; 
+}
+.pic1{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic2{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic3 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic4 {
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic5{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic6{
+   background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover; 
+}
+.pic7{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+.pic8{
+    background :url(../img/madhu.jpg)top left no-repeat;
+    background-size: cover;
+}
+
+.sideBar .sideNav{
+    max-width: 300px;
+    margin: 0em auto 1em;
+    border: solid 1px #d3d3d3;
+    background-color: #6f1200;
+}
+.sideNav a{
+    display: block;
+    font-size: 1.6em;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: solid 1px #d3d3d3;
+}
+.sideNav a:hover{
+    background-color:  #896633;
+}
+
+.resumes{
+    max-width: 300px;
+    margin: 2em auto;
+    background-color: #fff;
+}
+
+.resumesHead{
+    width: 100%;
+    background-color: #896633;
+}
+.resumesHead h3{
+    padding: 1em;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+}
+.resumesBody{
+    width: 100%;
+    border: solid 1px #d3d3d3;
+    padding: 1em;
+}
+.resumesBody form label{
+    font-size: 1.6em;
+    color: #6f1200;
+}
+.resumes .btn{
+    display: block;
+    margin: 0 auto;
+    padding: .5em 8em .5em 8em;
+    background-color: #896633
+    color: #fff;
+}
+
+/* book now overley css starts here by abinash */
+
+.overlay_4_frm {
+	background:url('../img/bg4form.jpg') no-repeat center;
+	background-size:cover;
+    height:380px;
+    width: 300px;
+    position: fixed;
+    z-index: 2000;
+    top: 60px;
+	right:220px;
+	/* right:-310px; */
+	bottom:0;
+    transition: 0.2s;
+	overflow-x: hidden ! important;
+	overflow-y: hidden ! important;
+	display:none;
+}
+
+
+.overlay_4_frm a {
+    padding: 0%;
+    text-decoration: none;
+    font-size: 3vw;
+    color: #cccccc;
+    display: block;
+    transition: 0.2s;
+}
+
+.overlay_4_frm a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay_4_frm .closebtn {
+    position: absolute;
+    right: 10px;
+    font-size: 3vw;
+	line-height: 80px;
+	margin: 2%;
+	z-index:10;
+	
+}
+
+.form-content {
+	font-size: 1vw;
+	background:rgba(9, 16, 49, 0.74);
+	margin:auto;
+	height:100% ! important;
+    width: 100%;
+	padding:30px;
+	color:#fff;
+	text-align:left;
+	
+}
+
+ .two_feild {
+	list-style:none;
+	display:table;
+	padding:5px 0px;
+	margin:auto;
+	width: 96%;
+}
+.two_feild li{
+    float: left;
+    display: table-cell;
+    width: 49%;
+    text-align: left;
+	margin-top: 15px;
+	margin:1px;
+}
+
+
+
+.inpt_frm{
+	border: 1px solid #9999;
+    padding: 3px 15px;
+    width: 100%;
+	font-size:15px;
+	border-radius: 27px;
+	color:#000;
+	-webkit-appearance: none;	
+	border-style: none;
+}
+
+
+
+.inpt_div{
+	width: 95%;
+    margin: auto;
+	margin-top:10px;
+}
+
+.selected-flag{
+	background:#fff;
+}
+
+.selected-flag:hover{
+	background:#fff ! important;
+}
+
+.country-name{
+	color:#000 ! important;
+}
+
+.sbmt_btn_4_frm{
+	background: rgb(41,184,194);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 1px;
+    color: #fff ! important;
+	margin-top:20px;
+	border-radius:0px;
+	font-size:15px;
+}
+.sbmt_btn_4_frm:hover{
+box-shadow: inset 0px 0px 20px 2px #12767d;
+}
+
+.allow-dropdown{
+    width: 100% ! important;
+}
+
+.iti-container{
+	z-index: 2000 ! important;
+}
+
+/* css for fix form on to and adjust navbar */
+
+.dcrFntSiz{
+	width: 75%;
+	font-size: 9px;
+}
+
+.dcrWidth{
+	width: 70%;
+}
+/* css fomfix ends here */
+
+
+/* similar property section starts here by abinash */
+.fram_width {
+	width: 1020px ! important;
+    margin: 0 auto ! important;
+	height:auto;
+}
+
+.flot_lft {
+	float: left;
+}
+
+.simlrProp{
+	position:relative;
+	width: 290px;
+    height: 210px;
+}
+
+.cntnDiv{
+    left: -20px;
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    font-size: 15px;
+    color: #6b6565;
+    background: #fff;
+    padding: 20px 42px;
+    font-weight: bold;
+    text-align: -webkit-left;
+    box-shadow: inset 0px -15px 40px -12px rgba(0,0,0,0.2);
+}
+
+.cntnDiv p{
+	margin: 0 0 1px;
+}
+.simlrSec{
+	border:1px solid #ccc;
+	margin:5px;
+	width:325px;
+	padding:10px 20px;
+	background: #fff;
+}
+
+.simlrSecImg{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.simlrProp img{
+	height: 175px;
+	width:100%;
+}
+
+.dropdown-menu>li>a {
+	padding: 3px 20px ! important;
+}
+ 
