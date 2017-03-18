@@ -1,0 +1,746 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #4b4b4b;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif; 
+	position: relative;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	color: #484848;
+	font-weight: bold;
+}
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.8em;
+}
+
+p{
+	font-size: 1.6em;
+	color: #484848;
+	font-weight: normal;
+}
+
+header, footer, section, article, nav, aside{
+	display: block;
+}
+
+header{
+	width: 100%;
+}
+
+.homeContainer, .listContainer{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.heroWrapper{
+	max-width: 110em;
+	margin: 0 auto 2em;
+	background:#1e254a; 
+
+}
+
+.headWrapper{
+	width: 100%;
+	position: relative;
+}
+
+.menu{
+	position: absolute;
+	top: 25%;
+	left: 1em;
+	cursor: pointer;
+}
+.menu span{
+	color: #fff;
+	font-size: 3em;
+}
+
+.phone{
+	position: absolute;
+	top: 25%;
+	right: 1em;
+	cursor: pointer;
+}
+.phone span {
+	color: #fff;
+	font-size: 3em;
+}
+.fa-bars, .fa-phone{
+	font-size: 2em;
+	color: #fff;
+}
+
+.logo h1{
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+.logo h1 span{
+	font-weight: 800;
+}
+.heading{
+	width: 100%;
+}
+.heading h3{
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 0.2em;
+	letter-spacing: .1em;
+}
+
+.heading h4{
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1em;
+	margin-bottom: 3em;
+	letter-spacing: .2em;
+}
+
+.heroWrapper a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.heroWrapper a button{
+	font-size: 1.6em;
+	padding: .5em 1em;
+	color: #484848;
+	cursor: pointer;
+}
+.back{
+	width: 100%;
+	height: 5em;
+}
+
+.back img{
+  width: 100%;
+  height: 100%;
+}
+
+.popularCity{
+	width: 100%;
+}
+
+.cityWrapper{
+	max-width: 110em;
+	margin: 0 auto 2em;
+}
+
+.subHeading{
+	width: 100%;
+	position: relative;
+}
+
+.subHeading h2{
+   padding: 1em 0.1em;
+}
+
+.subHeading a{
+	position: absolute;
+	top: 1.8em;
+	right: 0.5em;
+	text-decoration: none;
+	font-size: 1.6em;
+}
+
+.imgContainer{
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-wrap: nowrap;
+	-webkit-justify-content: space-around;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.imgage{
+	max-width: calc((100% - 20px) / 3);
+    margin-right: 10px;
+    position: relative;
+    min-height: 18em;
+}
+.lastChild{
+	margin-right: 0 !important;
+}
+.wrapperForImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.46);
+}
+.imgage img{
+	width: 100%;
+	height: 100%;
+}
+.imgage h3{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+.whyUs{
+	width: 100%;
+}
+
+.whyUsWrapper{
+	max-width: 110em;
+	margin: 0 auto 2em;
+}
+
+.whyUsWrapper h2{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.somePoints{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.somePoints p{
+	padding: 0 2em;
+}
+
+.somePoints h1 i{
+	color: #000;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.seprator{
+	width: 10%;
+	background: #484848;
+}
+
+.awards{
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-wrap: nowrap;
+	-webkit-justify-content: space-around;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.award{
+	max-width: calc((100% - 10px) / 3);
+	margin-right: 5px;
+}
+
+.lastChild{
+	margin-right: 0 !important;
+}
+.award img{
+  width: 100%;
+}
+
+
+footer{
+	max-width: 110em;
+	margin: 0 auto;
+	background: #323232;
+	height: 20em;
+}
+
+.fallowUs{
+	width: 100%;
+	text-align: center;
+}
+
+.fallowUs h3{
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 0.5em;
+	margin-bottom: 1em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+
+.media{
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.fb, .tw, .google, .linkdin{
+	width: 2em;
+	height: 2em;
+	border: solid 2px #fff;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 2em;
+	font-size: 2em;
+	color: #fff;
+	margin: 5px;
+}
+
+.quickLink{
+	width: 100%;
+	text-align: center;
+}
+
+.quickLink ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+.quickLink ul li{
+   display: inline-block;
+   color: #fff;
+   font-size: 1.6em;
+   margin: 1em 1em;
+}
+
+.quickLink ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.foot{
+	max-width: 110em;
+	margin: 0 auto;
+	background: #323232;
+	text-align: center;
+	color: #fff;
+}
+
+.foot p{
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 1.6em;
+
+}
+
+
+/*------------------------------------Room Listing -----------------------------------*/
+
+
+
+.listContainer{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.listheadWrapper{
+	max-width: 110em;
+	margin: 0 auto;
+	height: 8em;
+	background:#1e254a; 
+	position: relative;
+	text-align: center;
+}
+
+.listmenu {
+	position: absolute;
+	top: 28%;
+	left: 5%;
+}
+.listmenu i, .listphone i{
+	font-size: 3.6em;
+}
+
+.listphone{
+	position: absolute;
+	top: 28%;
+	right: 5%;
+}
+.listlogo{
+	height: 8em;
+	line-height: 8em;
+}
+.listlogo h1{
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+
+.listlogo h1 span{
+   font-weight: 800;
+}
+
+.listWrapper{
+	max-width: 110em;
+	margin: 0 auto 2em;
+}
+
+.list{
+	width: 100%;
+	margin-bottom: 2em; 
+}
+
+.listImg{
+	width: 100%;
+	max-height: 350em;
+	position: relative;
+}
+
+.listImgWrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.46);
+}
+
+
+.listImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.listFooter{
+	width: 100%;
+	padding: 1em;
+	background: #f4f4ef;
+	box-shadow: 5px 5px 5px #888;
+}
+
+.pricingLeft{
+	width: 50%;
+	float: left;
+}
+
+.pricingLeft h3{
+	margin-bottom: 0.5em; 
+}
+
+.discount{
+	width: 90%;
+	height: 5em;
+	line-height: 5em;
+	background: #ce4a30;
+	text-align: center;
+}
+
+.discount p{
+	margin: 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+
+}
+.discount p span{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.pricingRight{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.pricingRight p{
+	margin: 0;
+	padding: 0;
+}
+
+.pricingRight p strike{
+	padding-right: 0.5em;
+}
+
+.fa-inr{
+	color: #ce4a30;
+}
+
+.pricingRight button{
+	margin: 1em auto;
+	background: #41854c;
+	padding: 1em 1.5em;
+	color: #fff;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.clarFix:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+
+/*----------------------------------------Room Page ---------------------------------*/
+
+
+.roomContainer {
+	max-width: 110em;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+ul li{
+	font-size: 1.6em;
+}
+#slides {
+      display: none;
+      overflow-x: hidden;
+}
+
+.aboutRoom{
+	width: 100%;
+	position: relative;
+	padding: 2em;
+	margin-bottom: 2em;
+}
+
+.aboutRoomLeft{
+	width: 50%;
+	float: left;
+}
+.aboutRoomLeft ul{
+	padding: 0;
+	margin: 0; 
+}
+.aboutRoomLeft ul li{
+	list-style: none;
+	display: inline-block;
+	color: #ce4a30;
+}
+
+.aboutRoomRight{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.quickAmenity{
+	width: 100%;
+    margin-bottom: 2em;
+    box-shadow: 3px 3px 3px #888;
+}
+.quickAmenityWrapper{
+	max-width: 100%;
+	text-align: center;
+}
+.quickAmenityIcon{
+	text-align: center;
+	max-width: calc((100% -20px)/3);
+	display: inline-block;
+	margin-right: 5px;
+	padding: 2em;
+}
+
+.quickAmenityIcon:nth-child(2){
+	border-left: solid 1px #888;
+	border-right: solid 1px #888;
+}
+.quickAmenityIcon:last-child {
+	margin-right: 0;
+}
+.quickAmenityIcon i{
+	font-size: 2em;
+}
+.roomDiscription{
+	width: 100%;
+	border-left: solid 5px #ce4a30;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px 3px #888;
+	padding: 2em 0em;
+}
+
+.roomDiscription h2{
+	padding-left: 0.5em;
+}
+
+.roomDiscription p{
+	padding:0em 1.5em;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+.forView{
+	font-weight: bold;
+	position: relative;
+}
+.forView span{
+   position: absolute;
+   top: 2em;
+   right: 2em;
+}
+
+.roomAmenity{
+	width: 100%;
+	border-left: solid 5px #15c26b;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px 3px #888;
+	padding: 2em 0em;
+}
+
+.roomAmenity h2{
+	padding-left: 0.5em; 
+}
+.roomAmenityLeft{
+	width: 50%;
+	float: left;
+}
+.roomAmenityRight{
+	width: 50%;
+	float: right;
+}
+
+.clearFix:after{
+   display: table;
+   content: "";
+   clear: both;
+}
+
+.roomPolicies {
+	width: 100%;
+	border-left: solid 5px #02b3e4;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px 3px #888;
+	padding: 2em 0em;
+	position: relative;
+}
+.roomPolicies h2{
+	padding-left: 0.5em;
+}
+
+.viewMore2{
+    position: absolute;
+    top: 60%;
+    right: 2em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.roomOtherDetails{
+	width: 100%;
+	border-left: solid 5px #558b2f;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px 3px #888;
+	padding: 2em 0em;
+}
+
+.roomOtherDetails h2{
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.roomOtherDetails p{
+	padding-left: 1.5em;
+	margin: 0;
+}
+
+.roomLocation{
+	width: 100%;
+	border: solid 1px #888;
+	margin-bottom: 2em;
+	padding: 2em 0em;
+}
+
+.roomLocation h2{
+	padding-left: 0.5em;
+}
+
+.roomReview{
+	width: 100%;
+	height: 18em;
+	margin-bottom: 2em;
+	padding: 2em 0em;
+	background: url(../images/hotel.jpeg)center no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.reviewWrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.46);
+	width: 100%;
+	height: 100%;
+}
+
+.reviewWrapper h2{
+	color: #fff;
+	font-weight: normal;
+}
+.reviewWrapper ul{
+	padding-left: 0;
+}
+.reviewWrapper ul li{
+	list-style: none;
+	display: inline-block;
+}
+.reviewWrapper p{
+   color: #fff;
+}
+
+
+/*----------------------------------Side Nav ---------------------------------*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

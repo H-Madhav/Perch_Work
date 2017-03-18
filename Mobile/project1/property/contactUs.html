@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ContactUs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+    <!-- link file for mobile number auto suggest -->
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
+    <script src="build/js/intlTelInput.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header class="head">
+    <section class="perch">
+        <section class="perchLogo">
+            <img src="image/logo_optimized.png" alt="perch-logo">
+        </section>
+        <section class="name ">
+                <h1> Perch </h1>
+                <h6> Service Apartments</h6>
+        </section>
+        <section class="navMenue" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </section>
+    </section>
+    <section class="headerBody clearfix">
+        <section class="contact">
+            <ul>
+                <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                <li><b>+91-8375037435</b></li>
+            </ul>
+        </section>
+        <section class="book" onclick="openNav2()">
+            BOOK
+        </section>
+    </section>
+</header>
+<section class="contactContainer clearfix" onclick="closeNav();">
+    <section id="main" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    	<a href="sad"><i style="color:#fff;" class="fa fa-home"></i> &nbsp; Home</a>
+        <a href="sadsad"><i style="color:#fff;" class="fa fa-envelope"></i> &nbsp; Suites</a>
+        <a href="asdsa"><i style="color:#fff;" class="fa fa-facebook"></i> &nbsp; Dining</a>
+        <a href="sadsa"><i style="color:#fff;" class="fa fa-trash"></i> &nbsp; receive our best </a>
+    	<a href="#"><i style="color:#fff;" class="fa fa-gear"></i> &nbsp; Events</a>
+    	<a href="#"><i style="color:#fff;" class="fa fa-cutlery"></i> &nbsp;Promotions</a>
+        <a href="#"><i style="color:#fff;" class="fa fa-wordpress"></i>&nbsp; Blog</a>	
+    </section>
+    <section id="contMap">
+            <iframe width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJtfcKHosYDTkRXye94K4Tf78&key=AIzaSyB5abqC5-4OyNOl_gqRrX1j8XgKkAPXR7E" allowfullscreen></iframe>
+    </section>
+	<br>
+    <section class="contactNav">
+            <ul>
+                <a class="guest">Guest Inquiry</a>
+                <a class="partner">Franchising &amp; Partnership</a>
+                <a class="job">Job Openings</a>
+            </ul>
+    </section>
+
+    <section class="guestInquiry">
+        <h1>Get in Touch with Perch!</h1>
+        <section class="formForGuestInq">
+            <form>
+                <section class="guestInquiryHead">
+                    <h3>Guest Inquiry</h3>
+                </section>
+                <section class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="mobile">Mobile:</label>
+                    <input type="phone" name="mobile" id="mobile" placeholder="Mobile Number" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="textarea">Message:</label>
+                    <textarea class="form-control" id="textarea" rows="5" placeholder="Your Message"></textarea>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- <section class="somePoints">
+            <h3>Some Points here</h3>
+            <ul>
+                <li>What is Lorem Ipsum?</li>
+                <li>Why do we use it?</li>
+                <li>Where does it come from</li>
+                <li>Where can I get some?</li>
+                <li>Where does it come from?</li>
+            </ul>
+        </section> -->
+    </section>
+
+    <section class="franchising">
+        <h1>Franchising &amp; Partnership!</h1>
+        <section class="formForfranchising">
+            <form>
+                <section class="franchisingHead">
+                    <h3>Become Our Partner</h3>
+                </section>
+                <section class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="mobile">Mobile:</label>
+                    <input type="phone" name="mobile" id="mobile" placeholder="Mobile Number" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="textarea">Message:</label>
+                    <textarea class="form-control" id="textarea" rows="5" placeholder="Your Message"></textarea>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+       <!--  <section class="somePoints">
+            <h3>Some Points here</h3>
+            <ul>
+                <li>What is Lorem Ipsum?</li>
+                <li>Why do we use it?</li>
+                <li>Where does it come from</li>
+                <li>Where can I get some?</li>
+                <li>Where does it come from?</li>
+            </ul>
+        </section> -->
+    </section>
+
+    <section class="jobOpenings">
+        <h1>Job Openings!</h1>
+        <section class="formForjobOpenings">
+            <form>
+                <section class="jobOpeningsHead">
+                    <h3>We Are Hiring</h3>
+                </section>
+                <section class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" class="form-control" required="true">
+                </section>
+               <!--  <section class="form-group">
+                    <label for="mobile">Mobile:</label>
+                    <input type="phone" name="mobile" id="mobile" placeholder="Mobile Number" class="form-control" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" placeholder="City Name" class="form-control" required="true">
+                </section> -->
+                <section class="form-group">
+                    <label for="jobAppliedFor">Job Applied For: </label>
+                    <select class="form-control" id="jobAppliedFor">
+                        <option>Web Designer</option>
+                        <option>Front-End Developer</option>
+                        <option>Php Developer</option>
+                        <option>Sales</option>
+                    </select>
+                </section>
+                <section class="form-group">
+                    <label for="upload">Upload Your CV:</label>
+                    <input type="file" class="form-control-file" id="upload" required="true">
+                </section>
+                <section class="form-group">
+                    <label for="textarea">Why should we hire you ?</label>
+                    <textarea class="form-control" id="textarea" rows="5" placeholder="Your Message" required="true"></textarea>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- <section class="somePoints">
+            <h3>Some Points here</h3>
+            <ul>
+                <li>What is Lorem Ipsum?</li>
+                <li>Why do we use it?</li>
+                <li>Where does it come from</li>
+                <li>Where can I get some?</li>
+                <li>Where does it come from?</li>
+            </ul>
+        </section> -->
+    </section>
+
+     
+</section>
+
+<footer class="footer">
+    <section class="clearfix">
+		<section class="indiaOffice">
+			<h3>Call Us</h3>
+			<p>+91-8375037435, 8800461053</p>
+		</section>
+		<section class="socialIcons">	
+				<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+		</section>
+	</section>
+	<section class="foot">
+	     <ul>
+	     	<li><a href="#"> Terms</a></li>
+	     	<li>|</li>
+	     	<li><a href="#">Privacy</a></li>
+	     </ul>
+		<p><b>&#169;</b>2017 theperch. All Rights Reserved</p>
+	</section>
+</footer>
+
+
+
+<!-- book now form by abinash -->
+
+<div id="myNav2" class="overlay_4_frm" >
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+	<center> 
+		<div class="form-content" id="tab1_content">
+			<div class="mk_resvtn">
+				<span id="tab1"  class="">Make a reservation</span>
+			</div>
+				<ul class="two_feild font5v">
+					<li>	
+						<div>
+							<label>Check In</label>
+							<input class="inpt_frm" type="date">
+						</div>
+					</li>
+					<li>
+						<div>
+							<label>Check Out</label>
+							<input class="inpt_frm" type="date">
+						</div>
+					</li>
+				</ul>
+				<div class="inpt_div font5v">
+					<label>Guest Name</label>
+					<input class="inpt_frm" type="text">
+				</div>	
+				<div class="inpt_div font5v">
+					<label>Email</label>
+					<input class="inpt_frm" type="email">
+				</div>	
+				<div class="inpt_div font5v">
+					<label>Phone No</label><br>
+					<input id="phone" name="numberph" type='tel' class="inpt_frm" width="100%">
+				</div>	
+				<br><br><br>	
+				<input  type="submit" class="para_heding fram_width sbmt_btn_4_frm font5v" value="Procede To Book Now" />	
+			</div>
+		</div>
+	</center>
+</div>
+
+<!-- bottom book now button  -->
+
+<!-- full screen award image on overley by abinash-->
+<div id="award1" class="overlay" style="width:0px;">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeawrd1()">&times;</a>
+	  <div class="overlay-content ">
+		<img src="image/award3.jpg"  width="100%" height="80%"/>
+	  </div>
+</div>
+<!-- image overley ends here  -->
+
+<script type="text/javascript" src="js/app.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgwu2oXr6sSvEj7DC_iH7-rNUiTJqL6a0&callback=initMap">
+    </script>
+<script src="js/customSlider.js" type="text/javascript"></script>	
+</body>
+
+<script>
+$("#phone").intlTelInput({
+   preferredCountries: ['cn', 'jp'],
+  utilsScript: "build/js/utils.js"
+});
+
+window.onload = init;
+</script>
+</html>
+

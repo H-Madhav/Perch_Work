@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About Us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<!-- link file for mobile number auto suggest -->
+	<link rel="stylesheet" href="build/css/intlTelInput.css">
+	<script src="build/js/intlTelInput.js"></script>
+</head>
+<body>
+<header class="head">
+    <section class="perch">
+    	<section class="perchLogo">
+    		<img src="image/logo_optimized.png" alt="perch-logo">
+    	</section>
+    	<section class="name ">
+    			<h1> Perch </h1>
+    			<h6> Service Apartments</h6>
+    	</section>
+    	<section class="navMenue" onclick="openNav()">
+    		<div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+    	</section>
+    </section>
+	<section class="headerBody clearfix">
+		<section class="contact">
+		    <ul>
+		    	<li><i class="fa fa-phone" aria-hidden="true"></i></li>
+		    	<li><b>+91-8375037435</b></li>
+		    </ul>
+		</section>
+		<section class="book" onclick="openNav2()">
+			BOOK
+		</section>
+	</section>
+</header>
+ <section class="container" onclick="closeNav();">
+    <section id="main" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    	<a href="">Home</a>
+        <a href="#">Suites</a>
+        <a href="#">Dining</a>
+        <a href="#">Wedding</a>
+    	<a href="#">Events</a>
+    	<a href="#">Promotions</a>
+        <a href="#">Blog</a>	
+    </section>
+ </section>
+
+<section class="containerAboutUs clearfix">
+	<section class="wraperForBar">
+		<section class="ourStory">
+		    <h1><span>Our Story</span> </h1>
+		    <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <i class="fa fa-quote-right" aria-hidden="true"></i>
+		    </p>
+		</section>
+		<section class="management">
+		    <h1><span>Management</span></h1>
+		    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		</section>
+		<section class="managementArea">
+			<section class="internationalDesigns">
+			    <ul>
+			    <li>International Designs</li>
+			    <li><span class="button1"></span></li>
+			    </ul>
+			    <p>Since there were few if any contemporary designs in India, international service apartment design elements like an emphasis on space, noise reduction, family spaces, self-contained living (kitchens), separate entrances as well as a low maintenance design.</p>
+			</section>
+			<section class="infra">
+			    <ul>
+			    <li>Infrastructure Management</li>
+			    <li><span class="button2"></span></li>
+			    </ul>
+			    <p>The local infrastructure in Gurgaon, Delhi, and Goa in terms of dependable electricity, water, safety, and connectivity are constantly improving. Taking into account the local infrastructure, our serviced apartments and guest houses were designed with electricity backup, water purification plants as well as fool proof security like CCTV camera, physical guards, high walls, fire extinguishers, and elevators as well as wide staircases.</p>
+			</section>
+			<section class="employeeDevelopment">
+			    <ul>
+			        <li>Trained Staff &amp; Employee Development</li>
+			        <li><span class="button3"></span>
+			        </li>
+			    </ul>
+			    <p>As service apartments have not yet evolved as a separate segment, our staff is mostly from the conventional hospitality background. We believe in Employee Development through a range of informal training and job enhancements. Our focus on training has helped improve both customer and employee satisfaction.</p>
+			</section>
+			<section class="multipleProperty">
+			    <ul>
+			        <li>Multiple Property Types</li>
+			        <li><span class="button4"></span>
+			        </li>
+			    </ul>
+			    <p>Perch has recently added studio apartments in Gurgaon to its portfolio of operations. Studio apartment design and management are distinct from other shorter stay apartments/guest houses as it is a self-contained unit with lower servicing requirements.</p>
+			</section>
+		</section>
+		<section class="ourTeam">
+		    <h1><span>Our Team</span></h1>  
+			<section class="executiveLeaders">			
+				<h3>Executive Leadership</h3>
+				<section class="group1" onclick="OpnUserModal('user1');">
+			        <section class="layer"></section>
+					<section class="discription">
+					    <h4>Madhu Singh</h4>
+					    <p>Lorem Ipsum is simply</p>
+					</section>
+			    </section>
+		<!-- modal for above user please use cout on id of modal and on onclick function pass the is as perameter		 -->
+
+		<div id="user1" class="overlayUserModal" >
+			<center> 
+				<div class="form-content cardUser" id="tab1_content">
+					<div class="innerWrpr">
+						<a href="javascript:void(0)" class="closebtn" onclick="closemodal()">&times;</a>
+						<img src="image/2.jpg" class="usrImg flotLeft" />
+						<h2 class="flotLeft headingUser">Abinash Kumar</h2>
+						<p class="usrDesng">Designation</p>
+						<p class="UserDetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+			</center>
+		</div>
+	<!-- modal for one user ends here 		 -->
+			    <section class="group2" onclick="OpnUserModal('user2');">
+			            <section class="layer"></section>
+						<section class="discription">
+						    <h4>Madhu Singh</h4>
+						    <p>Lorem Ipsum is simply</p>
+						</section>
+			    </section>
+		<!-- modal for above user please use cout on id of modal and on onclick function pass the is as perameter		 -->
+		<div id="user2" class="overlayUserModal" >
+			<center> 
+				<div class="form-content cardUser" id="tab1_content">
+					<div class="innerWrpr">
+						<a href="javascript:void(0)" class="closebtn" onclick="closemodal()">&times;</a>
+						<img src="image/2.jpg" class="usrImg flotLeft" />
+						<h2 class="flotLeft headingUser">Madhav HAri</h2>
+						<p class="usrDesng">Front-End Developer</p>
+						<p class="UserDetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+					</div>
+				</div>
+			</center>
+		</div>
+	<!-- modal for one user ends here 		 -->	
+	</section>
+		<section class="itTeam">
+		    <h3>Our IT-Team &amp; Sales</h3>
+		<section class="group4">
+		        <section class="layer"></section>
+				<section class="discription">
+				    <h4>Madhu Singh</h4>
+				    <p>Lorem Ipsum is simply</p>
+				</section>
+		</section>
+		<section class="group5">
+		        <section class="layer"></section>
+				<section class="discription">
+				    <h4>Madhu Singh</h4>
+				    <p>Lorem Ipsum is simply</p>
+				</section>
+		</section>
+		<section class="group6">
+		       <section class="layer"></section>
+				<section class="discription">
+				    <h4>Madhu Singh</h4>
+				    <p>Lorem Ipsum is simply</p>
+				</section>
+		</section>
+		<section class="group7">
+		        <section class="layer"></section>
+				<section class="discription">
+				     <h4>Madhu Singh</h4>
+				    <p>Lorem Ipsum is simply</p>
+				</section>
+		</section>
+		<section class="group8">
+		        <section class="layer"></section>
+				<section class="discription">
+				     <h4>Madhu Singh</h4>
+				    <p>Lorem Ipsum is simply</p>
+			    </section>
+		</section>
+		<section class="group9">
+		    <section class="layer"></section>
+			<section class="discription">
+				 <h4>Madhu Singh</h4>
+				<p>Lorem Ipsum is simply</p>
+			</section>
+		</section>
+	</section>
+	</section>
+</section>
+
+
+<footer class="footer">
+    <section class="clearfix">
+		<section class="indiaOffice">
+			<h3>Call Us</h3>
+			<p>+91-8375037435, 8800461053</p>
+		</section>
+		<section class="socialIcons">	
+				<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+		</section>
+	</section>
+	<section class="foot">
+	     <ul>
+	     	<li><a href="#"> Terms</a></li>
+	     	<li>|</li>
+	     	<li><a href="#">Privacy</a></li>
+	     </ul>
+		<p><b>&#169;</b>2017 theperch. All Rights Reserved</p>
+	</section>
+</footer>
+
+<!-- book now form by abinash -->
+
+<div id="myNav2" class="overlay_4_frm" >
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+	<center> 
+		<div class="form-content" id="tab1_content">
+			<div class="mk_resvtn">
+				<span id="tab1"  class="">Make a reservation</span>
+			</div>
+				<ul class="two_feild font5v">
+					<li>	
+						<div>
+							<label>Check In</label>
+							<input class="inpt_frm" type="date">
+						</div>
+					</li>
+					<li>
+						<div>
+							<label>Check Out</label>
+							<input class="inpt_frm" type="date">
+						</div>
+					</li>
+				</ul>
+				<div class="inpt_div font5v">
+					<label>Guest Name</label>
+					<input class="inpt_frm" type="text">
+				</div>	
+				<div class="inpt_div font5v">
+					<label>Email</label>
+					<input class="inpt_frm" type="email">
+				</div>	
+				<div class="inpt_div font5v">
+					<label>Phone No</label><br>
+					<input id="phone" name="numberph" type='tel' class="inpt_frm" width="100%">
+				</div>	
+				<br><br><br>	
+				<input  type="submit" class="para_heding fram_width sbmt_btn_4_frm font5v" value="Procede To Book Now" />	
+			</div>
+		</div>
+	</center>
+</div>
+
+<!-- bottom book now button  -->
+
+<script type="text/javascript" src="js/app.js"></script>
+<script>
+$("#phone").intlTelInput({
+   preferredCountries: ['cn', 'jp'],
+  utilsScript: "build/js/utils.js"
+});
+
+</script>
+</body>
+</html>
